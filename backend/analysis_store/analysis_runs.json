@@ -1,0 +1,113 @@
+{
+  "next_run_id": 10,
+  "runs": [
+    {
+      "id": 1,
+      "dataset_name": "demo_customers.csv",
+      "created_at": "2026-09-08T18:58:00.699742+00:00",
+      "completed_at": null,
+      "total_records": 30,
+      "status": "error",
+      "error": "name 'feature_evidence' is not defined",
+      "dataset_fingerprint": "28905383aab42ea3b211e8497d4483b77b6bec41d7a2f84fa12b7ef89ec9fa18",
+      "csv_file": "analysis_run_000001_20260909_002800_demo_customers.csv",
+      "summary_file": "analysis_run_000001_20260909_002800_demo_customers.json"
+    },
+    {
+      "id": 2,
+      "dataset_name": "demo_customers.csv",
+      "created_at": "2026-09-08T19:02:54.186208+00:00",
+      "completed_at": "2026-09-08T19:05:03.947204+00:00",
+      "total_records": 30,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "28905383aab42ea3b211e8497d4483b77b6bec41d7a2f84fa12b7ef89ec9fa18",
+      "csv_file": "analysis_run_000002_20260909_003254_demo_customers.csv",
+      "summary_file": "analysis_run_000002_20260909_003254_demo_customers.json"
+    },
+    {
+      "id": 3,
+      "dataset_name": "customer_support_tickets_clean.csv",
+      "created_at": "2026-09-08T20:05:46.270981+00:00",
+      "completed_at": null,
+      "total_records": 500,
+      "status": "processing",
+      "error": null,
+      "dataset_fingerprint": "f05958d85ff4a436b8605ac5fada1d7dd2ea4d8dbd3b4582939b7b9cf922abc3",
+      "csv_file": "analysis_run_000003_20260909_013546_customer_support_tickets_clean.csv",
+      "summary_file": "analysis_run_000003_20260909_013546_customer_support_tickets_clean.json"
+    },
+    {
+      "id": 4,
+      "dataset_name": "customer_support_tickets_clean_1.csv",
+      "created_at": "2026-09-08T20:29:19.522818+00:00",
+      "completed_at": "2026-09-08T20:35:46.721179+00:00",
+      "total_records": 100,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "3ea59f61f72523985bb57485a048a8955e2988edf6b67b818bf9f8086d6804d6",
+      "csv_file": "analysis_run_000004_20260909_015919_customer_support_tickets_clean_1.csv",
+      "summary_file": "analysis_run_000004_20260909_015919_customer_support_tickets_clean_1.json"
+    },
+    {
+      "id": 5,
+      "dataset_name": "demo_customers.csv",
+      "created_at": "2026-09-09T11:05:52.355643+00:00",
+      "completed_at": "2026-09-09T11:05:52.750283+00:00",
+      "total_records": 30,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "28905383aab42ea3b211e8497d4483b77b6bec41d7a2f84fa12b7ef89ec9fa18",
+      "csv_file": "analysis_run_000005_20260909_163552_demo_customers.csv",
+      "summary_file": "analysis_run_000005_20260909_163552_demo_customers.json"
+    },
+    {
+      "id": 6,
+      "dataset_name": "customer_support_tickets_clean_1.csv",
+      "created_at": "2026-09-09T11:12:32.204287+00:00",
+      "completed_at": "2026-09-09T11:12:32.418723+00:00",
+      "total_records": 100,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "3ea59f61f72523985bb57485a048a8955e2988edf6b67b818bf9f8086d6804d6",
+      "csv_file": "analysis_run_000006_20260909_164232_customer_support_tickets_clean_1.csv",
+      "summary_file": "analysis_run_000006_20260909_164232_customer_support_tickets_clean_1.json"
+    },
+    {
+      "id": 7,
+      "dataset_name": "demo_customers.csv",
+      "created_at": "2026-09-09T11:19:43.485727+00:00",
+      "completed_at": "2026-09-09T11:19:43.892198+00:00",
+      "total_records": 30,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "28905383aab42ea3b211e8497d4483b77b6bec41d7a2f84fa12b7ef89ec9fa18",
+      "csv_file": "analysis_run_000007_20260909_164943_demo_customers.csv",
+      "summary_file": "analysis_run_000007_20260909_164943_demo_customers.json"
+    },
+    {
+      "id": 8,
+      "dataset_name": "CRM_150.csv",
+      "created_at": "2026-09-09T11:37:10.464736+00:00",
+      "completed_at": "2026-09-09T11:45:12.245838+00:00",
+      "total_records": 150,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "45885030c70584ee7d0a474a6c67f6d71d9b5a22afceb128bb60350f4027e25e",
+      "csv_file": "analysis_run_000008_20260909_170710_CRM_150.csv",
+      "summary_file": "analysis_run_000008_20260909_170710_CRM_150.json"
+    },
+    {
+      "id": 9,
+      "dataset_name": "CRM_150.csv",
+      "created_at": "2026-09-10T10:58:42.314364+00:00",
+      "completed_at": "2026-09-10T10:58:42.525912+00:00",
+      "total_records": 150,
+      "status": "complete",
+      "error": null,
+      "dataset_fingerprint": "45885030c70584ee7d0a474a6c67f6d71d9b5a22afceb128bb60350f4027e25e",
+      "csv_file": "analysis_run_000009_20260910_162842_CRM_150.csv",
+      "summary_file": "analysis_run_000009_20260910_162842_CRM_150.json"
+    }
+  ]
+}

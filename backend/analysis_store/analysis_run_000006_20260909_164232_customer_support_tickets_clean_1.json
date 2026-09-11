@@ -1,0 +1,700 @@
+{
+  "total": 100,
+  "total_records": 100,
+  "analyzed_records": 100,
+  "analyzed_all_records": true,
+  "analysis_complete": true,
+  "analysis_batch_size": 30,
+  "analysis_batches": 7,
+  "unique_customers": 100,
+  "overview": {
+    "headline": "Widespread unresolved support and reliability failures driving overwhelmingly negative sentiment (93%) across the entire user base.",
+    "summary": "All 100 uploaded records remain unresolved and sentiment is heavily negative (93%), with 33% of records explicitly raising support concerns. Product reliability and outages are frequent themes (reliability 14%, hardware 8%, connectivity 6%), and customers report specific failures after updates and missing options. Only 2% of records are explicit feature requests, while 14% contain churn signals. Most contacts come through chat (50%), then email (29%) and calls (21%), indicating heavy inbound support volume and escalation pressure.",
+    "priority": "Immediate: clear the unresolved-issue backlog by opening a dedicated cross-functional war room (support + engineering) to triage, escalate, and communicate fixes within a defined SLA.",
+    "source_ids": [],
+    "ai_generated": true,
+    "coverage": "Analyzed all 100 records"
+  },
+  "sentiment": {
+    "positive": 0,
+    "negative": 93,
+    "neutral": 7,
+    "percentages": {
+      "positive": 0.0,
+      "negative": 93.0,
+      "neutral": 7.0
+    }
+  },
+  "problems": [
+    {
+      "name": "battery drain",
+      "mentions": 3,
+      "percentage": 3.0,
+      "summary": "The dominant recurring problem is unresolved support combined with product reliability breakdowns. Support is the top topic in 33 records and every single record is flagged as unresolved, while reliability-related topics (reliability, hardware, connectivity, software bug) appear frequently. Customers report post-update malfunctions, intermittent failures, data-loss incidents, and missing options that support has not closed, producing repeated, unresolved touchpoints.",
+      "source_ids": []
+    },
+    {
+      "name": "missing option",
+      "mentions": 3,
+      "percentage": 3.0,
+      "summary": "This issue appears in 3 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "post-update malfunction",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "issue after software update",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "widespread_issue",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "troubleshooting_failed",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "data_loss",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "unresolved_support",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "intermittent_failure",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    },
+    {
+      "name": "app_crash",
+      "mentions": 2,
+      "percentage": 2.0,
+      "summary": "This issue appears in 2 of 100 records.",
+      "source_ids": []
+    }
+  ],
+  "feature_requests": [
+    {
+      "id": "60",
+      "customer": "Lori Parker",
+      "message": "I'm having an issue with the iPhone. Please assist. Thank you. My name is Julie and I am the new owner of the ShopRunner.I'm looking to try and add some more features which would be I've tried using different cables, adapters, or peripherals with my iPhone, but the issue persists.",
+      "summary": "Customer reports a persistent issue with an iPhone that continues despite trying different cables, adapters, and peripherals. They also express a desire to add more features to ShopRunner, indicating a request for expanded functionality. The connection/charging problem remains unresolved and they are seeking both technical help and additional features.",
+      "reason": "",
+      "channel": "email",
+      "date": "2020-09-09",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "60"
+      ]
+    },
+    {
+      "id": "86",
+      "customer": "Grace Ortiz",
+      "message": "I've encountered a data loss issue with my Microsoft Office. All the files and documents seem to have disappeared. Can you guide me on how to retrieve them? Also, are there any tools that will help prevent data loss? We I'm not sure if this issue is specific to my device or if others have reported similar problems.",
+      "summary": "Customer experienced data loss in Microsoft Office with all files disappeared and asks for guidance on how to retrieve them. They also explicitly ask about tools to prevent future data loss, indicating a need for recovery and preventative solutions. The issue remains unresolved and requires recovery steps plus recommendations for data protection.",
+      "reason": "",
+      "channel": "email",
+      "date": "2021-12-05",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "data loss",
+      "source_ids": [
+        "86"
+      ]
+    }
+  ],
+  "feature_request_summary": {
+    "count": 2,
+    "percentage": 2.0
+  },
+  "churn_signals": [
+    {
+      "id": "5",
+      "customer": "Ryan Schwartz",
+      "message": "I'm unable to access my Roomba Robot Vacuum account. It keeps displaying an 'Invalid Credentials' error, even though I'm using the correct login information. How can I regain access to my account? You can I've already contacted customer support multiple times, but the issue remains unresolved.",
+      "evidence": "Customer cannot access their Roomba account due to an 'Invalid Credentials' error despite using correct credentials. They have contacted customer support multiple times and the issue remains unresolved, blocking account access. Repeated failed support attempts indicate a meaningful retention risk if access is not restored.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-09-04",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "login",
+      "unresolved_issue": true,
+      "source_ids": [
+        "5"
+      ]
+    },
+    {
+      "id": "8",
+      "customer": "Karla West",
+      "message": "My PlayStation is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thanks. Your customer support can be reached to be contacted at info@honey I rely heavily on my PlayStation for my daily tasks, and this issue is hindering my productivity.",
+      "evidence": "Customer's PlayStation is making strange noises and not functioning properly; they suspect a hardware fault. They rely heavily on the PlayStation for daily tasks and say the issue is hindering productivity. The service disruption creates a retention risk until the hardware problem is resolved.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2020-02-04",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "hardware",
+      "unresolved_issue": true,
+      "source_ids": [
+        "8"
+      ]
+    },
+    {
+      "id": "11",
+      "customer": "Peter Campbell",
+      "message": "I've noticed a software bug in the Garmin Forerunner app. It's causing data loss and unexpected errors. How can I resolve this issue? In case there is an issue, please contact Customer Support. Also check out I need assistance as soon as possible because it's affecting my work and productivity.",
+      "evidence": "Customer reports a software bug in the Garmin Forerunner app that is causing data loss and unexpected errors. They say this is affecting their work and productivity and request immediate assistance. Data loss and ongoing errors represent a significant retention risk and need urgent resolution.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-04-15",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "software bug",
+      "unresolved_issue": true,
+      "source_ids": [
+        "11"
+      ]
+    },
+    {
+      "id": "14",
+      "customer": "Lisa Bennett",
+      "message": "I've accidentally deleted important data from my Sony 4K HDR TV. Is there any way to recover the deleted files? I need them urgently. -Ya. Thank you very much for your email - your words and comments I've performed a factory reset on my Sony 4K HDR TV, hoping it would resolve the problem, but it didn't help.",
+      "evidence": "Customer accidentally deleted important data from their Sony 4K HDR TV and urgently needs to recover the files. They performed a factory reset which did not resolve the issue and are asking if recovery is possible. The unresolved data loss is critical and poses a retention risk if not recovered promptly.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "email",
+      "date": "2021-01-16",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "data recovery",
+      "unresolved_issue": true,
+      "source_ids": [
+        "14"
+      ]
+    },
+    {
+      "id": "17",
+      "customer": "Shane Rodriguez",
+      "message": "I've noticed a software bug in the Dyson Vacuum Cleaner app. It's causing data loss and unexpected errors. How can I resolve this issue? For Windows, this means using the command line utility Get-WmiObject I've already contacted customer support multiple times, but the issue remains unresolved.",
+      "evidence": "Customer reports a software bug in the Dyson Vacuum Cleaner app that causes data loss and unexpected errors. They have contacted support multiple times but the issue remains unresolved. This repeated unresolved data-loss problem represents a significant risk to continued use of the app.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-02-13",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "software bug",
+      "unresolved_issue": true,
+      "source_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "29",
+      "customer": "Michelle Bauer",
+      "message": "I'm unable to access my Amazon Kindle account. It keeps displaying an 'Invalid Credentials' error, even though I'm using the correct login information. How can I regain access to my account? [ edit ] I've performed a factory reset on my Amazon Kindle, hoping it would resolve the problem, but it didn't help.",
+      "evidence": "Customer cannot access their Amazon Kindle account due to an 'Invalid Credentials' error despite using correct login information. They performed a factory reset but it did not resolve the access issue. Being locked out of the account is a critical blockage and presents a meaningful retention risk.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "call",
+      "date": "2021-12-10",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "login",
+      "unresolved_issue": true,
+      "source_ids": [
+        "29"
+      ]
+    },
+    {
+      "id": "30",
+      "customer": "Amber Gentry",
+      "message": "I've encountered a data loss issue with my Amazon Echo. All the files and documents seem to have disappeared. Can you guide me on how to retrieve them? If none of these files have gone missing and your site is I'm unable to find the option to perform the desired action in the Amazon Echo. Could you please guide me through the steps?",
+      "evidence": "Customer reports data loss on their Amazon Echo with all files and documents missing and asks for guidance to retrieve them. They also cannot find the option to perform the desired action in the device interface. The lost data and inability to recover it represent a significant risk to continued trust and use of the product.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "email",
+      "date": "2021-11-13",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "data loss",
+      "unresolved_issue": true,
+      "source_ids": [
+        "30"
+      ]
+    },
+    {
+      "id": "45",
+      "customer": "Sarah Flores",
+      "message": "I've encountered a data loss issue with my iPhone. All the files and documents seem to have disappeared. Can you guide me on how to retrieve them? This is a huge problem, so we will need to create I've tried troubleshooting steps mentioned in the user manual, but the issue persists.",
+      "evidence": "Customer reports complete data loss on their iPhone with all files and documents disappeared and manual troubleshooting has not resolved it. They describe this as a huge problem and indicate urgent need for recovery, creating a significant unmet need and retention risk.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-02-05",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "support",
+      "unresolved_issue": true,
+      "source_ids": [
+        "45"
+      ]
+    },
+    {
+      "id": "46",
+      "customer": "Eric Stone",
+      "message": "I'm having an issue with the Autodesk AutoCAD. Please assist. https://www.amazon.com/gp/product/B00JQH9G3Lw?psc=1 My gift went to a I've already contacted customer support multiple times, but the issue remains unresolved.",
+      "evidence": "Customer reports an issue with Autodesk AutoCAD and indicates a gift delivery problem. They have contacted customer support multiple times but the issue remains unresolved. The repeated unsuccessful contacts suggest rising frustration and retention risk.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "call",
+      "date": "2020-01-29",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "support",
+      "unresolved_issue": true,
+      "source_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "59",
+      "customer": "Brian Brown",
+      "message": "I'm having an issue with the LG OLED. Please assist. We have tried to fix these issues myself. The item will be re-sold at the checkout page after I get it back at 1 PM Pacific. I've already contacted customer support multiple times, but the issue remains unresolved.",
+      "evidence": "Customer has an ongoing issue with an LG OLED and states they have already contacted customer support multiple times without resolution. The repeated unsuccessful support interactions indicate escalation risk and possible churn. The problem remains unresolved and requires further attention.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2020-09-01",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "support",
+      "unresolved_issue": true,
+      "source_ids": [
+        "59"
+      ]
+    },
+    {
+      "id": "62",
+      "customer": "Scott Peters",
+      "message": "I'm having an issue with the Nikon D. Please assist. Click \"I have purchased all three of the {Product_purchased} items\". Step 15 In the previous step, I have I've already contacted customer support multiple times, but the issue remains unresolved.",
+      "evidence": "Customer reports a recurring issue with a Nikon D workflow and references specific steps but the problem persists. They state they've contacted customer support multiple times without resolution. This represents an unresolved support escalation and creates retention risk due to repeated failed attempts to fix the issue.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "email",
+      "date": "2020-12-21",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "support",
+      "unresolved_issue": true,
+      "source_ids": [
+        "62"
+      ]
+    },
+    {
+      "id": "85",
+      "customer": "Jessica Brown",
+      "message": "I'm having an issue with the Nest Thermostat. Please assist. I do not need to get these from any store. I don't even realize if you did if you bought them online with $17 in your I need assistance as soon as possible because it's affecting my work and productivity.",
+      "evidence": "Customer reports a problem with a Nest Thermostat and requests immediate assistance because the issue is impacting their work and productivity. They indicate urgency and need a rapid resolution. The unresolved nature and business impact present a retention risk if not addressed quickly.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "call",
+      "date": "2021-12-05",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "support",
+      "unresolved_issue": true,
+      "source_ids": [
+        "85"
+      ]
+    },
+    {
+      "id": "87",
+      "customer": "Joe Flores",
+      "message": "My Xbox crashed, and I lost all the data stored on it. Is there any way to recover the lost data? -I've got a.NET and.NETCore set as separate files, so I tried using I need assistance as soon as possible because it's affecting my work and productivity.",
+      "evidence": "Customer's Xbox crashed and they lost all stored data; they are asking if recovery is possible. They state the problem affects their work and productivity and request urgent assistance. The data loss is unresolved and creates retention risk due to its business impact.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-04-01",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "data loss",
+      "unresolved_issue": true,
+      "source_ids": [
+        "87"
+      ]
+    },
+    {
+      "id": "89",
+      "customer": "Melissa Spencer",
+      "message": "The Samsung Galaxy is unable to establish a stable internet connection. It keeps disconnecting intermittently. How can I troubleshoot this network problem? The data is still working in great condition. But some features of Google I rely heavily on my Samsung Galaxy for my daily tasks, and this issue is hindering my productivity.",
+      "evidence": "Customer's Samsung Galaxy experiences intermittent internet disconnections that hinder their daily tasks and productivity. They rely heavily on the device and request troubleshooting steps to stabilize the network connection. The connectivity problem is unresolved and poses a retention risk due to the impact on the customer's work.",
+      "reason": "",
+      "severity": "high",
+      "plan": "",
+      "channel": "chat",
+      "date": "2021-09-18",
+      "revenue": 0.0,
+      "customer_type": "",
+      "sentiment": "negative",
+      "topic": "connectivity",
+      "unresolved_issue": true,
+      "source_ids": [
+        "89"
+      ]
+    }
+  ],
+  "churn_summary": {
+    "count": 14,
+    "percentage": 14.0
+  },
+  "feature_request_insight": "Feature demand is limited in volume: only 2 records (2%) are classified as feature requests and feature-topics include a single explicit 'feature request' and a data-loss-related request. However, multiple records point to 'missing option' (3 records) and requests around data recovery appear in the churn-topic list, indicating customers want recovery/restore capabilities and particular configuration options that are currently absent or unclear. Treat capability questions about data recovery and missing options as actionable product gaps.",
+  "churn_insight": "There is meaningful retention risk: 14 records (14%) contain churn signals and those signals cluster around unresolved support (5 churn-topic records), login issues, software bugs, and data loss. The combination of 100 unresolved cases and dominant negative sentiment suggests declining confidence—customers experiencing unresolved bugs, login failures, or data-loss risk are most likely to leave. Prioritize fixing root causes and proactive outreach to affected customers to reduce near-term churn.",
+  "unresolved_issues": {
+    "count": 100,
+    "percentage": 100.0
+  },
+  "top_topics": [
+    {
+      "name": "support",
+      "count": 33,
+      "percentage": 33.0
+    },
+    {
+      "name": "reliability",
+      "count": 14,
+      "percentage": 14.0
+    },
+    {
+      "name": "hardware",
+      "count": 8,
+      "percentage": 8.0
+    },
+    {
+      "name": "connectivity",
+      "count": 6,
+      "percentage": 6.0
+    },
+    {
+      "name": "product usability",
+      "count": 6,
+      "percentage": 6.0
+    },
+    {
+      "name": "login",
+      "count": 5,
+      "percentage": 5.0
+    },
+    {
+      "name": "performance",
+      "count": 5,
+      "percentage": 5.0
+    },
+    {
+      "name": "software bug",
+      "count": 4,
+      "percentage": 4.0
+    },
+    {
+      "name": "software",
+      "count": 4,
+      "percentage": 4.0
+    },
+    {
+      "name": "data loss",
+      "count": 3,
+      "percentage": 3.0
+    }
+  ],
+  "high_value": [],
+  "segments": [
+    {
+      "segment": "chat",
+      "count": 50,
+      "percentage": 50.0,
+      "negative": 46,
+      "churn": 8,
+      "revenue": 0.0
+    },
+    {
+      "segment": "email",
+      "count": 29,
+      "percentage": 29.0,
+      "negative": 28,
+      "churn": 3,
+      "revenue": 0.0
+    },
+    {
+      "segment": "call",
+      "count": 21,
+      "percentage": 21.0,
+      "negative": 19,
+      "churn": 3,
+      "revenue": 0.0
+    }
+  ],
+  "source_counts": {
+    "email": 29,
+    "call": 21,
+    "chat": 50
+  },
+  "suggested_questions": [
+    "Which feature are customers most complaining about?",
+    "Which features should we add to the roadmap, especially where high-profile customers are asking even though request volume is lower?",
+    "Which clients are likely to churn and why? Prioritize high-profile customers first.",
+    "Which customer problems are causing the most unresolved friction and what should we fix first?",
+    "Which customer segments or accounts show the strongest combination of business impact and recurring product pain?"
+  ],
+  "aggregates": {
+    "total_records": 100,
+    "sentiment": {
+      "positive": 0,
+      "negative": 93,
+      "neutral": 7,
+      "percentages": {
+        "positive": 0.0,
+        "negative": 93.0,
+        "neutral": 7.0
+      }
+    },
+    "feature_requests": {
+      "count": 2,
+      "percentage": 2.0
+    },
+    "churn_signals": {
+      "count": 14,
+      "percentage": 14.0
+    },
+    "unresolved_issues": {
+      "count": 100,
+      "percentage": 100.0
+    },
+    "top_topics": [
+      {
+        "name": "support",
+        "count": 33,
+        "percentage": 33.0
+      },
+      {
+        "name": "reliability",
+        "count": 14,
+        "percentage": 14.0
+      },
+      {
+        "name": "hardware",
+        "count": 8,
+        "percentage": 8.0
+      },
+      {
+        "name": "connectivity",
+        "count": 6,
+        "percentage": 6.0
+      },
+      {
+        "name": "product usability",
+        "count": 6,
+        "percentage": 6.0
+      },
+      {
+        "name": "login",
+        "count": 5,
+        "percentage": 5.0
+      },
+      {
+        "name": "performance",
+        "count": 5,
+        "percentage": 5.0
+      },
+      {
+        "name": "software bug",
+        "count": 4,
+        "percentage": 4.0
+      },
+      {
+        "name": "software",
+        "count": 4,
+        "percentage": 4.0
+      },
+      {
+        "name": "data loss",
+        "count": 3,
+        "percentage": 3.0
+      }
+    ],
+    "top_problems": [
+      {
+        "name": "battery drain",
+        "count": 3,
+        "percentage": 3.0
+      },
+      {
+        "name": "missing option",
+        "count": 3,
+        "percentage": 3.0
+      },
+      {
+        "name": "post-update malfunction",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "issue after software update",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "widespread_issue",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "troubleshooting_failed",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "data_loss",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "unresolved_support",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "intermittent_failure",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "app_crash",
+        "count": 2,
+        "percentage": 2.0
+      }
+    ],
+    "feature_topics": [
+      {
+        "name": "feature request",
+        "count": 1,
+        "percentage": 1.0
+      },
+      {
+        "name": "data loss",
+        "count": 1,
+        "percentage": 1.0
+      }
+    ],
+    "churn_topics": [
+      {
+        "name": "support",
+        "count": 5,
+        "percentage": 5.0
+      },
+      {
+        "name": "login",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "software bug",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "data loss",
+        "count": 2,
+        "percentage": 2.0
+      },
+      {
+        "name": "hardware",
+        "count": 1,
+        "percentage": 1.0
+      },
+      {
+        "name": "data recovery",
+        "count": 1,
+        "percentage": 1.0
+      },
+      {
+        "name": "connectivity",
+        "count": 1,
+        "percentage": 1.0
+      }
+    ],
+    "channels": {
+      "email": 29,
+      "chat": 50,
+      "call": 21
+    },
+    "plans": [],
+    "customer_types": []
+  },
+  "analysis_method": "OpenAI analyzed all 100 uploaded records in small internal batches of up to 30 records. Classifications and aggregate counts were calculated across all analyzed records.",
+  "coverage": {
+    "total_records": 100,
+    "analyzed_records": 100,
+    "remaining_records": 0,
+    "percentage": 100,
+    "label": "Analyzed all 100 records"
+  }
+}

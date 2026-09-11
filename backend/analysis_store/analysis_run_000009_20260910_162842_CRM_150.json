@@ -1,0 +1,2782 @@
+{
+  "total": 150,
+  "total_records": 150,
+  "analyzed_records": 150,
+  "analyzed_all_records": true,
+  "analysis_complete": true,
+  "analysis_batch_size": 30,
+  "analysis_batches": 10,
+  "unique_customers": 150,
+  "overview": {
+    "headline": "Unresolved backlog and widespread feature demand (105 requests) are driving negative sentiment (54%) and measurable churn risk (20%).",
+    "summary": "Across 150 records we see a dominant pattern: 105 feature requests (70% of records) and 140 unresolved issues (93.3%) coincide with more negative than positive sentiment (81 negative, 54.0%). Top topics center on feature requests, support, onboarding and integrations (Salesforce and calendar sync called out in the problem list). Chat is the primary support channel (105 chats), and most reports come from Pro customers and startups. The scale of unresolved items is the clearest operational failure and is amplifying requests and dissatisfaction.",
+    "priority": "Immediately reduce the unresolved-issue backlog and fast-track the highest-impact feature requests (integrations, reporting, billing/invoice history) by dedicating engineering and support resources to close 140 outstanding issues and ship targeted fixes/integrations.",
+    "source_ids": [],
+    "ai_generated": true,
+    "coverage": "Analyzed all 150 records"
+  },
+  "sentiment": {
+    "positive": 10,
+    "negative": 81,
+    "neutral": 59,
+    "percentages": {
+      "positive": 6.7,
+      "negative": 54.0,
+      "neutral": 39.3
+    }
+  },
+  "problems": [
+    {
+      "name": "missing_invoice_history",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "The single biggest recurring problem is unmet core functionality coupled with an unresolved-support backlog: 105 explicit feature requests and specific missing items (Salesforce integration, calendar sync, invoice history, two‑factor authentication, team management panel, approval-workflow gaps) appear repeatedly while 140 of 150 records remain unresolved. That combination creates persistent friction—customers ask for capabilities that aren’t available and then don’t get timely closure from support.",
+      "source_ids": []
+    },
+    {
+      "name": "missing salesforce integration",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing calendar sync",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing two-factor authentication",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing invoice history",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing team management panel",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "approval workflow limitations",
+      "mentions": 2,
+      "percentage": 1.3,
+      "summary": "This issue appears in 2 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "pricing_concern",
+      "mentions": 1,
+      "percentage": 0.7,
+      "summary": "This issue appears in 1 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "need_more_flexible_analytics_dashboard",
+      "mentions": 1,
+      "percentage": 0.7,
+      "summary": "This issue appears in 1 of 150 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing_salesforce_integration",
+      "mentions": 1,
+      "percentage": 0.7,
+      "summary": "This issue appears in 1 of 150 records.",
+      "source_ids": []
+    }
+  ],
+  "feature_requests": [
+    {
+      "id": "35",
+      "customer": "OrbitReach",
+      "message": "We need a better two-factor login for our team going forward.",
+      "summary": "Customer states they need a better two-factor login for their team going forward. This is a clear request for an improved security/authentication feature and is currently unmet. Delivering stronger 2FA would satisfy the stated need.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-06",
+      "revenue": 15743.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "35"
+      ]
+    },
+    {
+      "id": "31",
+      "customer": "NorthWorks",
+      "message": "One request from our team: could you add automated two-factor login?",
+      "summary": "Customer requests automated two-factor login for their team. This is a direct ask for a missing security feature and remains unresolved. Implementing 2FA would meet their stated need and improve account security for the team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-29",
+      "revenue": 15133.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "31"
+      ]
+    },
+    {
+      "id": "73",
+      "customer": "SilverReach",
+      "message": "One request from our team: could you add automated calendar sync?",
+      "summary": "The customer requests automated calendar sync, indicating the capability does not exist today. This is an explicit feature request and an unresolved need for their team. Implementing calendar synchronization would fulfill their requirement.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-08",
+      "revenue": 15097.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "73"
+      ]
+    },
+    {
+      "id": "118",
+      "customer": "OnyxGate",
+      "message": "One request from our team: we need a more flexible user permissions.",
+      "summary": "The customer requests more flexible user permissions for their team. The current permissions model does not meet their needs and requires enhancement. This is an unresolved feature request related to access control.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-19",
+      "revenue": 15059.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "118"
+      ]
+    },
+    {
+      "id": "123",
+      "customer": "NimbusPoint",
+      "message": "Please add two-factor login; the manual process is painful for our team.",
+      "summary": "The customer asks for two-factor login because the current manual process is painful for their team. This is a request to add multi-factor authentication to improve security and usability.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-01-23",
+      "revenue": 14918.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "login",
+      "source_ids": [
+        "123"
+      ]
+    },
+    {
+      "id": "3",
+      "customer": "MapleRidge",
+      "message": "We are evaluating another product because it has the Salesforce integration we need. We need to decide soon.",
+      "summary": "Customer is evaluating a competitor because that product has the Salesforce integration they need. They state they need to decide soon, creating clear churn risk. The missing integration is unresolved and blocking their retention.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-02",
+      "revenue": 14892.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "3"
+      ]
+    },
+    {
+      "id": "9",
+      "customer": "WillowWorks",
+      "message": "It would help if we had better documentation for the user permissions.",
+      "summary": "Customer requests better documentation for user permissions. They indicate a documentation gap that hinders effective use of permission features. The need is unresolved and improving docs could reduce support load and user confusion.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-19",
+      "revenue": 14471.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "documentation",
+      "source_ids": [
+        "9"
+      ]
+    },
+    {
+      "id": "69",
+      "customer": "HarborYard",
+      "message": "We need a better user permissions for our team going forward.",
+      "summary": "The customer says they need better user permissions for their team, indicating current permission controls are insufficient. This is a request for improved functionality and remains unresolved. Enhancing permissions management would meet their operational needs.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-06-03",
+      "revenue": 14268.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "user permissions",
+      "source_ids": [
+        "69"
+      ]
+    },
+    {
+      "id": "101",
+      "customer": "EchoPeak",
+      "message": "The Salesforce integration is missing and it is creating extra manual work for our team.",
+      "summary": "The customer reports that Salesforce integration is missing and that this creates extra manual work. They are implicitly requesting the integration to eliminate manual processes. The missing integration is an unresolved blocker for more efficient workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-22",
+      "revenue": 14245.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "101"
+      ]
+    },
+    {
+      "id": "93",
+      "customer": "HarborPeak",
+      "message": "It would help if we had better documentation for the search feature.",
+      "summary": "The customer requests better documentation for the search feature to make it more usable. They indicate current documentation is lacking, which is an unresolved barrier to effective use. Improving docs would address their need for clearer guidance.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-14",
+      "revenue": 14052.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "product usability",
+      "source_ids": [
+        "93"
+      ]
+    },
+    {
+      "id": "142",
+      "customer": "TerraLoop",
+      "message": "One request from our team: please add API access for our workflow.",
+      "summary": "The team requests API access to integrate their workflow with the product. The absence of an API is blocking their desired integrations. Providing API access would enable automated interactions and workflow integration.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-15",
+      "revenue": 13796.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "142"
+      ]
+    },
+    {
+      "id": "111",
+      "customer": "GoldenLabs",
+      "message": "We need a better CRM integration for our team going forward.",
+      "summary": "The customer requests a better CRM integration for their team going forward. Current CRM integration capabilities are inadequate for their needs. This is a product integration gap that remains unresolved.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-01-27",
+      "revenue": 13555.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "111"
+      ]
+    },
+    {
+      "id": "108",
+      "customer": "BrightRise",
+      "message": "One request from our team: we need a more flexible team management panel.",
+      "summary": "The customer explicitly requests a more flexible team management panel. Their team needs enhanced controls or features in team management that the product currently lacks. This is a product gap that is unresolved for them.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-27",
+      "revenue": 13422.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "108"
+      ]
+    },
+    {
+      "id": "84",
+      "customer": "AmberPoint",
+      "message": "One request from our team: we are doing too much manual work around notification system and want automation.",
+      "summary": "The customer reports doing too much manual work around the notification system and requests automation. This is a clear feature/automation request to reduce manual effort. The lack of automation remains an unresolved operational burden for their team.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-01-06",
+      "revenue": 13186.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "84"
+      ]
+    },
+    {
+      "id": "40",
+      "customer": "QuartzGrove",
+      "message": "We are considering switching unless the approval workflow improves soon.",
+      "summary": "Customer is considering switching unless the approval workflow improves soon, tying the issue to potential churn. They explicitly request improvements to the approval workflow, which is currently inadequate for their needs. The unresolved problem threatens retention if not addressed quickly.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-28",
+      "revenue": 12636.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "approval workflow",
+      "source_ids": [
+        "40"
+      ]
+    },
+    {
+      "id": "97",
+      "customer": "WillowPoint",
+      "message": "We are doing too much manual work with the user permissions and want automation.",
+      "summary": "The customer reports excessive manual work managing user permissions and requests automation. This is an explicit feature request to streamline permission management. The manual process remains an unresolved efficiency issue for their team.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-04-24",
+      "revenue": 11950.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "account management",
+      "source_ids": [
+        "97"
+      ]
+    },
+    {
+      "id": "38",
+      "customer": "AlpineMill",
+      "message": "We are evaluating another product because it has the notification system we need. We need to decide soon.",
+      "summary": "Customer is evaluating a competitor because that product has the notification system they need and says they must decide soon. This indicates the lack of a notification system is a competitive gap and creates clear churn risk. The capability is currently unmet and unresolved.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-04-12",
+      "revenue": 11124.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "notifications",
+      "source_ids": [
+        "38"
+      ]
+    },
+    {
+      "id": "11",
+      "customer": "SummitBridge",
+      "message": "We are evaluating another product because it has the invoice history we need. We need to decide soon.",
+      "summary": "Customer is evaluating another product because it provides the invoice history they need and must decide soon. This creates clear churn risk tied to a missing billing/reporting capability. The invoice history requirement is unresolved and impacting their renewal decision.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-06-02",
+      "revenue": 10445.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "11"
+      ]
+    },
+    {
+      "id": "75",
+      "customer": "EchoWorks",
+      "message": "One request from our team: we are doing too much manual work around search feature and want automation.",
+      "summary": "The customer requests automation for the search feature because they are doing too much manual work. This is an explicit feature request and an unresolved operational pain point. Automating the search workflows would reduce manual effort for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-04",
+      "revenue": 10173.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "75"
+      ]
+    },
+    {
+      "id": "42",
+      "customer": "ClearSprings",
+      "message": "The settings page makes it difficult for our team to get work done.",
+      "summary": "Customer reports that the settings page makes it difficult for their team to get work done. This implicitly requests improvements to the settings UX and represents an unresolved usability problem. Fixing the settings page would remove a productivity blocker for the team.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-03-18",
+      "revenue": 9557.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "settings",
+      "source_ids": [
+        "42"
+      ]
+    },
+    {
+      "id": "68",
+      "customer": "SwiftMill",
+      "message": "We need a better mobile app for our team going forward.",
+      "summary": "The customer requests a better mobile app for their team, indicating the current mobile experience is inadequate. This is an explicit feature request and an unresolved need. Improving the mobile app would address their stated requirement.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-01-21",
+      "revenue": 9031.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "68"
+      ]
+    },
+    {
+      "id": "115",
+      "customer": "GoldenGroup",
+      "message": "The analytics dashboard is missing and it is creating extra manual work for our team.",
+      "summary": "The customer reports the analytics dashboard is missing, forcing extra manual work for their team. They need an analytics/dashboard feature to automate tasks and reduce manual effort. This is a functional gap causing operational pain that remains unresolved.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-27",
+      "revenue": 8982.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "115"
+      ]
+    },
+    {
+      "id": "92",
+      "customer": "OnyxLoop",
+      "message": "One request from our team: we are doing too much manual work around crm integration and want automation.",
+      "summary": "The customer says their team performs too much manual work around CRM integration and requests automation. This is an explicit feature request to reduce manual effort. The manual workflow remains an unresolved pain point for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-13",
+      "revenue": 8699.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "92"
+      ]
+    },
+    {
+      "id": "57",
+      "customer": "SapphirePath",
+      "message": "We need a better team management panel for our team going forward.",
+      "summary": "The customer requests a better team management panel for future use, indicating the current panel is inadequate. This is a feature gap that affects their team organization and operations. They expect enhancements to team management functionality.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-01",
+      "revenue": 8371.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "57"
+      ]
+    },
+    {
+      "id": "79",
+      "customer": "BrightCrest",
+      "message": "Please add notification system; the manual process is painful for our team.",
+      "summary": "The customer requests a notification system, stating the current manual process is painful for their team. This is a direct feature request pointing to missing automation. The lack of notifications is an unresolved pain point impacting their operations.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-18",
+      "revenue": 6271.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "79"
+      ]
+    },
+    {
+      "id": "137",
+      "customer": "AtlasField",
+      "message": "We are considering switching because the invoice history workflow is too difficult to use.",
+      "summary": "The customer finds the invoice history workflow difficult to use and is considering switching vendors. They are asking implicitly for improvements to make invoice history easier to navigate. This is a retention risk if the billing workflow is not improved.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-25",
+      "revenue": 6153.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "137"
+      ]
+    },
+    {
+      "id": "6",
+      "customer": "LumenGrove",
+      "message": "The user permissions is missing and it is creating extra manual work for our team.",
+      "summary": "Customer reports that user permissions are missing, causing extra manual work for their team. This is a request for an access-control feature that is currently absent. The issue remains unresolved and increases operational overhead.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-26",
+      "revenue": 5952.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "source_ids": [
+        "6"
+      ]
+    },
+    {
+      "id": "139",
+      "customer": "SilverVentures",
+      "message": "One request from our team: could you add automated onboarding flow?",
+      "summary": "The team requests an automated onboarding flow to streamline new-user setup. They currently lack this capability and are asking for it to be added. Implementing automation would reduce manual onboarding effort.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-06-09",
+      "revenue": 5896.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "onboarding",
+      "source_ids": [
+        "139"
+      ]
+    },
+    {
+      "id": "16",
+      "customer": "OrbitStone",
+      "message": "One request from our team: please add data import tool; doing it manually is painful.",
+      "summary": "Customer requests a data import tool because current manual imports are painful. This is a clear ask for a missing capability that is currently causing friction for the team. The issue remains unresolved and impacts their operational efficiency.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-17",
+      "revenue": 5874.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "16"
+      ]
+    },
+    {
+      "id": "133",
+      "customer": "CopperPoint",
+      "message": "We need a better notification system and more flexible options overall.",
+      "summary": "The customer asks for a better notification system and more flexible options overall, indicating current notification capabilities are lacking. They want broader flexibility and enhancements to meet their needs.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-27",
+      "revenue": 5841.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "notifications",
+      "source_ids": [
+        "133"
+      ]
+    },
+    {
+      "id": "56",
+      "customer": "CobaltField",
+      "message": "We may leave next quarter unless the Salesforce integration improves. This is becoming important for our renewal decision.",
+      "summary": "The customer states they may leave next quarter unless the Salesforce integration improves, tying the integration quality to renewal. This is an explicit retention risk driven by integration shortcomings. They expect meaningful improvements to the Salesforce integration before renewal.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-23",
+      "revenue": 5803.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "56"
+      ]
+    },
+    {
+      "id": "53",
+      "customer": "SilverMill",
+      "message": "The team management panel is missing and it is creating extra manual work for our team.",
+      "summary": "The customer says the team management panel is missing, which forces extra manual work. This missing feature is creating operational overhead for their team. They expect a dedicated team management interface to reduce manual processes.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-26",
+      "revenue": 5725.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "53"
+      ]
+    },
+    {
+      "id": "135",
+      "customer": "AtlasLine",
+      "message": "One request from our team: please add invoice history for our workflow.",
+      "summary": "The customer requests invoice history to support their workflow. This is a straightforward feature request signaling the absence of invoice history functionality they need.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-01-14",
+      "revenue": 5702.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "135"
+      ]
+    },
+    {
+      "id": "131",
+      "customer": "DeltaLine",
+      "message": "We are evaluating another product because it has the audit log we need. We need to decide soon.",
+      "summary": "The customer is evaluating another product because it offers an audit log they need, creating an immediate competitive threat. They implicitly request an audit log capability and need to decide soon, indicating a strong churn risk if the feature is not provided.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-06-18",
+      "revenue": 5677.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "131"
+      ]
+    },
+    {
+      "id": "82",
+      "customer": "HarborPoint",
+      "message": "Please add billing dashboard; the manual process is painful for our team.",
+      "summary": "The customer asks for a billing dashboard because their current billing process is manual and painful for the team. This is a direct request for a missing capability impacting their financial workflows. The lack of a billing dashboard is an unresolved pain point for them.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-26",
+      "revenue": 5633.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "82"
+      ]
+    },
+    {
+      "id": "44",
+      "customer": "NorthReach",
+      "message": "We may leave next quarter unless the export tool improves. This is becoming important for our renewal decision.",
+      "summary": "Customer warns they may leave next quarter unless the export tool improves and ties this to their renewal decision. This is an explicit request for export functionality improvements and conveys material churn risk. The problem is unresolved and is influencing their retention decision.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-14",
+      "revenue": 5611.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "export",
+      "source_ids": [
+        "44"
+      ]
+    },
+    {
+      "id": "26",
+      "customer": "RiverLine",
+      "message": "Please add reporting module; the manual process is painful for our team.",
+      "summary": "Customer requests a reporting module because their manual reporting process is painful. This is an explicit feature request and indicates a current operational burden. The lack of an automated reporting module remains unresolved for the team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-29",
+      "revenue": 5555.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "26"
+      ]
+    },
+    {
+      "id": "36",
+      "customer": "CoralLabs",
+      "message": "Please add invoice history; the manual process is painful for our team.",
+      "summary": "Customer asks to add invoice history and describes the current manual process as painful. This is an explicit request for a billing/invoicing feature that is currently missing. The request remains unresolved and is causing operational friction for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-30",
+      "revenue": 5475.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "36"
+      ]
+    },
+    {
+      "id": "120",
+      "customer": "OrbitGroup",
+      "message": "We are considering switching because the CRM integration workflow is too difficult to use.",
+      "summary": "The customer is considering switching because the CRM integration workflow is too difficult to use. They need an easier or improved CRM integration experience to retain them. This is a serious unresolved usability issue that presents a real churn risk.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-21",
+      "revenue": 5313.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "120"
+      ]
+    },
+    {
+      "id": "124",
+      "customer": "OrbitPeak",
+      "message": "We may leave next quarter unless the approval workflow improves. This is becoming important for our renewal decision.",
+      "summary": "The customer warns they may leave next quarter unless the approval workflow improves, tying the issue directly to their renewal decision. This represents a material retention risk and an explicit request to enhance the approval workflow.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-10-04",
+      "revenue": 5280.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "workflow",
+      "source_ids": [
+        "124"
+      ]
+    },
+    {
+      "id": "146",
+      "customer": "SunTrail",
+      "message": "One request from our team: could you add automated notification system?",
+      "summary": "The team requests an automated notification system to replace manual processes. This capability is currently missing and needed to streamline communications. Adding automation would reduce manual effort and improve responsiveness.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-03",
+      "revenue": 5166.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "notifications",
+      "source_ids": [
+        "146"
+      ]
+    },
+    {
+      "id": "47",
+      "customer": "VertexBridge",
+      "message": "It would help if we had better documentation for the file upload tool.",
+      "summary": "The customer asks for better documentation for the file upload tool. Lack of clear docs is hindering their ability to use that feature effectively. They expect improved documentation to reduce friction and support self-serve usage.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-02-12",
+      "revenue": 4997.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "support",
+      "source_ids": [
+        "47"
+      ]
+    },
+    {
+      "id": "77",
+      "customer": "VertexRidge",
+      "message": "We like the product overall, but the approval workflow still needs work.",
+      "summary": "The customer says they like the product overall but the approval workflow still needs work. They are requesting improvements to that workflow, indicating a current functional gap. The issue remains unresolved and affects their satisfaction with the product.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-01-07",
+      "revenue": 4965.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "77"
+      ]
+    },
+    {
+      "id": "23",
+      "customer": "DeltaHollow",
+      "message": "One request from our team: we need a more flexible Salesforce integration.",
+      "summary": "Customer asks for a more flexible Salesforce integration. They indicate the current integration does not meet their needs, making this a clear feature enhancement request. The limitation remains unresolved for them.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-02-08",
+      "revenue": 4691.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "23"
+      ]
+    },
+    {
+      "id": "90",
+      "customer": "ClearCrest",
+      "message": "One request from our team: we need a more flexible invoice history.",
+      "summary": "The customer requests a more flexible invoice history, indicating current invoice history functionality does not meet their needs. This is a feature request tied to billing and financial record access. The issue remains unresolved and affects their invoicing workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-10-01",
+      "revenue": 4560.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "90"
+      ]
+    },
+    {
+      "id": "125",
+      "customer": "CopperYard",
+      "message": "We like the product overall, but the calendar view could be faster.",
+      "summary": "The customer likes the product overall but reports the calendar view is slow and could be faster. They are requesting performance improvements to the calendar view to enhance usability.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-13",
+      "revenue": 4541.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "performance",
+      "source_ids": [
+        "125"
+      ]
+    },
+    {
+      "id": "112",
+      "customer": "CedarHealth",
+      "message": "We need a better team management panel and more flexible options overall.",
+      "summary": "Customer requests a better team management panel and more flexible options overall. They require additional features or configurability in team management that the product does not provide. This is an unresolved product request from their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-10-09",
+      "revenue": 4526.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "112"
+      ]
+    },
+    {
+      "id": "27",
+      "customer": "GreenCrest",
+      "message": "The notifications panel does not give us the report we need.",
+      "summary": "Customer reports the notifications panel does not provide the report they need. This indicates a missing reporting capability within the notifications area and is an unresolved problem. The gap prevents them from getting required information from the product.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-10-19",
+      "revenue": 4453.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "27"
+      ]
+    },
+    {
+      "id": "39",
+      "customer": "TrueSystems",
+      "message": "One request from our team: we need a more flexible search feature.",
+      "summary": "Customer requests a more flexible search feature for their team. This is an explicit feature request for enhanced search capabilities and remains unresolved. Updating search functionality would address their stated operational need.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-06",
+      "revenue": 4418.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "search",
+      "source_ids": [
+        "39"
+      ]
+    },
+    {
+      "id": "136",
+      "customer": "QuartzLabs",
+      "message": "One request from our team: we need a more flexible data import tool.",
+      "summary": "The team requests a more flexible data import tool to handle their needs. This is a missing capability that currently prevents smoother data ingestion. Improving import flexibility would likely streamline their workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-18",
+      "revenue": 4351.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "136"
+      ]
+    },
+    {
+      "id": "62",
+      "customer": "VertexSprings",
+      "message": "One request from our team: could you add automated mobile app?",
+      "summary": "The customer explicitly asks for an automated mobile app, indicating the capability is currently missing. This is a direct feature request and an unresolved need from the team. Delivering this feature would address their stated request.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-14",
+      "revenue": 4291.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "62"
+      ]
+    },
+    {
+      "id": "100",
+      "customer": "TrueStone",
+      "message": "One request from our team: please add CRM integration for our workflow.",
+      "summary": "The customer explicitly requests adding CRM integration to support their workflow. The lack of this integration is an unresolved capability gap. Implementing CRM connectivity would directly address their team's request.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-29",
+      "revenue": 4190.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "100"
+      ]
+    },
+    {
+      "id": "22",
+      "customer": "SwiftWorks",
+      "message": "One request from our team: please add user permissions for our workflow.",
+      "summary": "Customer requests user permissions tailored to their workflow. This is an explicit request for functionality that is not currently available. The lack of this capability is unresolved and limiting their workflow setup.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-30",
+      "revenue": 4171.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "22"
+      ]
+    },
+    {
+      "id": "25",
+      "customer": "GoldenLine",
+      "message": "We need a better data import tool for our team going forward.",
+      "summary": "Customer says they need a better data import tool for ongoing use. This is a direct request for improved import functionality and indicates the current tool is inadequate. The need remains unresolved and affects future workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-01-02",
+      "revenue": 3923.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "25"
+      ]
+    },
+    {
+      "id": "70",
+      "customer": "RiverPoint",
+      "message": "We like the product overall, but the support portal could be faster.",
+      "summary": "The customer expresses overall satisfaction with the product but asks for a faster support portal. This indicates a performance or responsiveness issue with support tooling that is unresolved. Improving portal speed could enhance their support experience.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-01-11",
+      "revenue": 3908.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "support",
+      "source_ids": [
+        "70"
+      ]
+    },
+    {
+      "id": "88",
+      "customer": "NovaSystems",
+      "message": "We are evaluating another product because it has the billing dashboard we need. We need to decide soon.",
+      "summary": "The customer is evaluating another product because it has the billing dashboard they need and says they must decide soon. This is an explicit churn risk driven by a missing billing-dashboard capability. The need is unresolved and could result in them switching if the feature gap isn't addressed quickly.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-10",
+      "revenue": 3871.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "88"
+      ]
+    },
+    {
+      "id": "78",
+      "customer": "CedarPartners",
+      "message": "Please add data import tool; the manual process is painful for our team.",
+      "summary": "The customer explicitly requests a data import tool because their current manual process is painful for the team. This is a clear feature gap creating operational pain. The issue is unresolved and causing efficiency problems for their workflows.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-01-24",
+      "revenue": 3814.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "78"
+      ]
+    },
+    {
+      "id": "114",
+      "customer": "CedarMill",
+      "message": "It would help if we had better documentation for the mobile app.",
+      "summary": "Customer says better documentation for the mobile app would be helpful. They currently lack adequate mobile app docs to use the product effectively. This is a documentation gap that hinders adoption or usage of the mobile app.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-04-16",
+      "revenue": 3730.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "onboarding",
+      "source_ids": [
+        "114"
+      ]
+    },
+    {
+      "id": "127",
+      "customer": "SunField",
+      "message": "We are considering switching unless the notification system improves soon.",
+      "summary": "The customer says they may switch unless the notification system improves soon, signaling a renewal/retention risk. They request enhancements to notifications and expect fixes to avoid changing vendors.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-01-30",
+      "revenue": 3588.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "notifications",
+      "source_ids": [
+        "127"
+      ]
+    },
+    {
+      "id": "102",
+      "customer": "SapphireYard",
+      "message": "We are considering switching because the API access workflow is too difficult to use.",
+      "summary": "The customer is considering switching because the API access workflow is too difficult to use. They implicitly request improvements to API access or workflow to retain them. This is an unresolved issue that presents a clear churn risk if not addressed.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-06-12",
+      "revenue": 3486.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "102"
+      ]
+    },
+    {
+      "id": "116",
+      "customer": "GoldenForge",
+      "message": "We may leave next quarter unless the search feature improves. This is becoming important for our renewal decision.",
+      "summary": "The customer warns they may leave next quarter unless the search feature improves and states this will influence their renewal decision. Poor search performance is a critical unmet need for them. This represents a clear retention risk tied to search functionality and an unresolved product issue.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-23",
+      "revenue": 3439.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "search",
+      "source_ids": [
+        "116"
+      ]
+    },
+    {
+      "id": "46",
+      "customer": "GoldenWorks",
+      "message": "One request from our team: please add onboarding flow for our workflow.",
+      "summary": "The customer requests an onboarding flow tailored to their workflow. This indicates a missing capability that is causing a process gap for their team. They expect the product to provide a guided onboarding experience to support adoption.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-01-16",
+      "revenue": 3438.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "46"
+      ]
+    },
+    {
+      "id": "126",
+      "customer": "BoldWorks",
+      "message": "We are considering switching unless the two-factor login improves soon.",
+      "summary": "The customer is considering switching unless two-factor login improves soon, indicating an urgent retention risk. They request improvements to the two-factor authentication experience to avoid churn.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-07",
+      "revenue": 3377.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "login",
+      "source_ids": [
+        "126"
+      ]
+    },
+    {
+      "id": "105",
+      "customer": "SlatePartners",
+      "message": "One request from our team: please add analytics dashboard for our workflow.",
+      "summary": "The customer explicitly requests adding an analytics dashboard for their workflow. The absence of this dashboard is an unresolved capability gap limiting their analytics needs. Delivering an analytics dashboard would meet their stated requirement.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-26",
+      "revenue": 3289.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "reporting",
+      "source_ids": [
+        "105"
+      ]
+    },
+    {
+      "id": "21",
+      "customer": "EchoSprings",
+      "message": "One request from our team: please add Salesforce integration; doing it manually is painful.",
+      "summary": "Customer requests a Salesforce integration because manual work is painful. This is an explicit feature request for a missing integration and remains unresolved. The gap is creating manual overhead for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-03",
+      "revenue": 3264.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "21"
+      ]
+    },
+    {
+      "id": "83",
+      "customer": "BoldGrove",
+      "message": "We need a better onboarding flow and more flexible options overall.",
+      "summary": "The customer requests a better onboarding flow and more flexibility overall, indicating current onboarding is insufficient. This is a request for product/usability improvements to ease adoption. The issue remains unresolved and could slow new user ramp-up.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-31",
+      "revenue": 3215.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "source_ids": [
+        "83"
+      ]
+    },
+    {
+      "id": "128",
+      "customer": "SapphireGroup",
+      "message": "If the CRM integration issue is not fixed, we may cancel at renewal.",
+      "summary": "The customer indicates a CRM integration issue that, if not fixed, may lead them to cancel at renewal. This is an active integration problem with direct implications for retention and requires a fix to avoid churn.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-27",
+      "revenue": 3209.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "128"
+      ]
+    },
+    {
+      "id": "29",
+      "customer": "NovaPoint",
+      "message": "One request from our team: please add calendar sync for our workflow.",
+      "summary": "Customer requests calendar sync to support their workflow. This is an explicit request for an integration/feature that is currently missing. The absence of calendar sync remains unresolved and impacts their workflow coordination.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-05-30",
+      "revenue": 3192.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "29"
+      ]
+    },
+    {
+      "id": "7",
+      "customer": "OnyxWave",
+      "message": "We are considering switching because the billing dashboard workflow is too difficult to use.",
+      "summary": "Customer is considering switching because the billing dashboard workflow is too difficult to use. They indicate active consideration of alternatives, which is a significant churn signal. The usability problem is unresolved and directly threatening retention.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-25",
+      "revenue": 3184.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "7"
+      ]
+    },
+    {
+      "id": "32",
+      "customer": "ClearLine",
+      "message": "We may leave next quarter unless the file upload tool improves. This is becoming important for our renewal decision.",
+      "summary": "Customer warns they may leave next quarter unless the file upload tool improves and ties this to their renewal decision. The message signals meaningful churn risk and requests improvement to a specific capability. The issue appears unresolved and is materially affecting their retention outlook.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-05-28",
+      "revenue": 3172.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "file upload",
+      "source_ids": [
+        "32"
+      ]
+    },
+    {
+      "id": "148",
+      "customer": "SwiftField",
+      "message": "We are doing too much manual work with the approval workflow and want automation.",
+      "summary": "The customer reports excessive manual work in the approval workflow and requests automation. The current manual process is inefficient for their team. Introducing automated approvals would reduce labor and speed up workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-22",
+      "revenue": 3158.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "workflow",
+      "source_ids": [
+        "148"
+      ]
+    },
+    {
+      "id": "43",
+      "customer": "LumenStone",
+      "message": "Setup for the approval workflow took longer than expected and the process was confusing.",
+      "summary": "Customer says setup for the approval workflow took longer than expected and the process was confusing. They implicitly request improvements to the setup/onboarding experience and the issue remains unresolved. Streamlining the setup or providing clearer guidance would address their complaint.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-17",
+      "revenue": 3120.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "source_ids": [
+        "43"
+      ]
+    },
+    {
+      "id": "110",
+      "customer": "DeltaGrove",
+      "message": "We need a better reporting module and more flexible options overall.",
+      "summary": "Customer says the reporting module is inadequate and requests more flexible options. They need expanded reporting capabilities or configurability to meet their requirements. This is an unresolved product limitation affecting their workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-21",
+      "revenue": 2932.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "reporting",
+      "source_ids": [
+        "110"
+      ]
+    },
+    {
+      "id": "45",
+      "customer": "CedarLoop",
+      "message": "We are considering switching unless the reporting module improves soon.",
+      "summary": "Customer is considering switching unless the reporting module improves soon, creating a direct renewal/retention concern. They request enhancements to reporting capabilities and the issue is unresolved. Addressing reporting deficits is needed to reduce the risk of churn.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-23",
+      "revenue": 2738.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "45"
+      ]
+    },
+    {
+      "id": "106",
+      "customer": "AlpineWave",
+      "message": "We like the product overall, but search results could be faster.",
+      "summary": "Customer generally likes the product but reports that search results are slow. They want faster search performance, indicating current search speed is insufficient for their needs. This is an outstanding product issue that may impact usability for search-heavy workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-31",
+      "revenue": 2695.0,
+      "customer_type": "Startup",
+      "sentiment": "positive",
+      "topic": "performance",
+      "source_ids": [
+        "106"
+      ]
+    },
+    {
+      "id": "130",
+      "customer": "AtlasReach",
+      "message": "We need a better onboarding flow for our team going forward.",
+      "summary": "The customer requests a better onboarding flow for their team going forward. This indicates the current onboarding experience does not meet their needs and they expect improvements.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-01-01",
+      "revenue": 2617.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "onboarding",
+      "source_ids": [
+        "130"
+      ]
+    },
+    {
+      "id": "134",
+      "customer": "GreenGroup",
+      "message": "One request from our team: could you add automated file upload tool?",
+      "summary": "The customer explicitly requests an automated file upload tool for their team. This is a clear feature request indicating the functionality is currently missing and desired.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-06",
+      "revenue": 2460.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "134"
+      ]
+    },
+    {
+      "id": "113",
+      "customer": "MapleVentures",
+      "message": "One request from our team: we need a more flexible audit log.",
+      "summary": "The customer explicitly requests a more flexible audit log. They need enhanced logging features or configurable audit capabilities that are currently missing. This is an open product feature request for the audit log.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-03-26",
+      "revenue": 2448.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "113"
+      ]
+    },
+    {
+      "id": "145",
+      "customer": "SunGroup",
+      "message": "We need a better reporting module for our team going forward.",
+      "summary": "The customer requests a better reporting module to meet their team's needs going forward. Current reporting capabilities are inadequate for their use cases. Enhancing the reporting module would improve their ability to analyze and act on data.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-30",
+      "revenue": 2428.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "145"
+      ]
+    },
+    {
+      "id": "138",
+      "customer": "FernGrove",
+      "message": "We need a better invoice history and more flexible options overall.",
+      "summary": "The customer requests a better invoice history and more overall flexibility in the product. They indicate current billing/history capabilities are inadequate for their needs. Addressing these gaps is necessary to meet their operational expectations.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-03",
+      "revenue": 2336.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "138"
+      ]
+    },
+    {
+      "id": "80",
+      "customer": "IvoryPartners",
+      "message": "We are considering switching unless the user permissions improves soon.",
+      "summary": "The customer is considering switching unless user permissions improve soon, which is an explicit retention risk. They request better user permissions controls, indicating the current access management does not meet their needs. This is an unresolved, high-priority issue that could lead to churn if not addressed promptly.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-22",
+      "revenue": 2255.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "account management",
+      "source_ids": [
+        "80"
+      ]
+    },
+    {
+      "id": "2",
+      "customer": "NovaBay",
+      "message": "One request from our team: we need a more flexible analytics dashboard.",
+      "summary": "Customer explicitly requests a more flexible analytics dashboard. This indicates a missing reporting capability that is impeding their workflow. The ask remains unresolved and likely requires product changes. Prioritization will determine satisfaction impact.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-05-08",
+      "revenue": 2112.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "19",
+      "customer": "FernLine",
+      "message": "It would help if we had better documentation for the reporting module.",
+      "summary": "Customer asks for better documentation for the reporting module to help their team. This is a request for missing or improved documentation and indicates a current gap. The need remains unresolved and could slow adoption of reporting features.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-02-11",
+      "revenue": 1395.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "reporting",
+      "source_ids": [
+        "19"
+      ]
+    },
+    {
+      "id": "14",
+      "customer": "AtlasLabs",
+      "message": "It would help if we had better documentation for the CRM integration.",
+      "summary": "Customer requests better documentation for the CRM integration. This indicates a documentation gap limiting effective use of the integration. The request is unresolved and improving docs would likely reduce friction during integration.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-01-31",
+      "revenue": 1390.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "documentation",
+      "source_ids": [
+        "14"
+      ]
+    },
+    {
+      "id": "51",
+      "customer": "AlpineRidge",
+      "message": "The support portal does not give us the report we need.",
+      "summary": "The customer reports the support portal does not provide a needed report. This is a gap in the portal's capabilities that prevents them from getting required information. They expect the portal to surface the report they need or for support to enable it.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-07-11",
+      "revenue": 1323.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "support",
+      "source_ids": [
+        "51"
+      ]
+    },
+    {
+      "id": "149",
+      "customer": "IvoryCrest",
+      "message": "We like the product overall, but the onboarding process could be faster.",
+      "summary": "The customer likes the product overall but requests faster onboarding because the current process is slow. They want improvements to reduce time-to-productivity for new users. Speeding up onboarding would enhance their experience and adoption.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-05-05",
+      "revenue": 1215.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "onboarding",
+      "source_ids": [
+        "149"
+      ]
+    },
+    {
+      "id": "91",
+      "customer": "AlpinePartners",
+      "message": "Please add calendar sync; the manual process is painful for our team.",
+      "summary": "The customer reports that their team currently uses a manual calendar process that is painful. They explicitly request adding calendar sync to remove the manual work. This remains an unresolved capability gap affecting team productivity.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-04",
+      "revenue": 1203.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "91"
+      ]
+    },
+    {
+      "id": "61",
+      "customer": "LumenBridge",
+      "message": "We need a better billing dashboard for our team going forward.",
+      "summary": "The customer says their current billing dashboard is insufficient and requests a better one for their team. This indicates a missing or inadequate billing-dashboard capability that is unresolved. Improving billing visibility could impact the customer's operational needs.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-06-29",
+      "revenue": 1170.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "61"
+      ]
+    },
+    {
+      "id": "4",
+      "customer": "EchoLabs",
+      "message": "Please add onboarding flow; the manual process is painful for our team.",
+      "summary": "Customer asks for an onboarding flow because the current manual process is painful for their team. This is a request for a missing capability and remains unresolved. The manual process is creating poor user experience that could slow adoption.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-10-13",
+      "revenue": 1163.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "source_ids": [
+        "4"
+      ]
+    },
+    {
+      "id": "132",
+      "customer": "AlpineField",
+      "message": "We need a better calendar sync for our team going forward.",
+      "summary": "The customer requests better calendar sync for their team going forward, indicating current sync functionality is insufficient. They expect improved synchronization to support team workflows.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-09-04",
+      "revenue": 1142.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "calendar",
+      "source_ids": [
+        "132"
+      ]
+    },
+    {
+      "id": "24",
+      "customer": "SunReach",
+      "message": "We are evaluating another product because it has the search feature we need. We need to decide soon.",
+      "summary": "Customer is evaluating another product because that product has the search feature they need and they must decide soon. This is an implicit request for a search capability and represents immediate churn risk. The missing feature is blocking their decision to stay.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-10-08",
+      "revenue": 1141.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "24"
+      ]
+    },
+    {
+      "id": "122",
+      "customer": "FernRidge",
+      "message": "Search results makes it difficult for our team to get work done.",
+      "summary": "The customer says search results prevent their team from getting work done, indicating a productivity blocker. They are requesting improvements to search functionality so their team can operate effectively.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-27",
+      "revenue": 1132.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "search",
+      "source_ids": [
+        "122"
+      ]
+    },
+    {
+      "id": "72",
+      "customer": "SwiftReach",
+      "message": "We are evaluating another product because it has the team management panel we need. We need to decide soon.",
+      "summary": "The customer is evaluating a competitor because that product has a team management panel they need, and they must decide soon. This demonstrates both a missing feature and immediate retention risk. Building or delivering a team management panel may be necessary to prevent churn.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-04-21",
+      "revenue": 1053.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "source_ids": [
+        "72"
+      ]
+    },
+    {
+      "id": "10",
+      "customer": "SapphireHollow",
+      "message": "We are doing too much manual work with the export tool and want automation.",
+      "summary": "Customer wants automation for the export tool because they are doing too much manual work. This is an explicit request for new automation capability and remains unresolved. Implementing automation would reduce manual effort and improve efficiency.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-15",
+      "revenue": 1019.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "10"
+      ]
+    },
+    {
+      "id": "34",
+      "customer": "FernMill",
+      "message": "We like the product overall, but the search feature still needs work.",
+      "summary": "Customer says they like the product overall but reports the search feature still needs work. This is an implicit request for enhancements to search functionality and remains unresolved. Improving search would address their usability concern.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-21",
+      "revenue": 976.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "search",
+      "source_ids": [
+        "34"
+      ]
+    },
+    {
+      "id": "140",
+      "customer": "FernSystems",
+      "message": "We like the product overall, but the audit log still needs work.",
+      "summary": "The customer likes the product overall but reports the audit log still needs work. They are requesting improvements to audit logging functionality or quality. Fixing the audit log would address their outstanding concern.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-10-26",
+      "revenue": 961.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "reporting",
+      "source_ids": [
+        "140"
+      ]
+    },
+    {
+      "id": "12",
+      "customer": "CoralWorks",
+      "message": "We may leave next quarter unless the invoice history improves. This is becoming important for our renewal decision.",
+      "summary": "Customer states they may leave next quarter unless invoice history improves and ties this directly to their renewal decision. This is an explicit churn threat and indicates the billing history feature is currently insufficient. The problem remains unresolved and requires urgent attention to retain the account.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-08-08",
+      "revenue": 957.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "billing",
+      "source_ids": [
+        "12"
+      ]
+    },
+    {
+      "id": "81",
+      "customer": "VertexYard",
+      "message": "We need a better two-factor login and more flexible options overall.",
+      "summary": "The customer needs a better two-factor login and more flexible authentication options overall. This is a request for improved security/login features and indicates current options are inadequate. The problem remains unresolved and affects their account security and user experience.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-03",
+      "revenue": 936.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "login",
+      "source_ids": [
+        "81"
+      ]
+    },
+    {
+      "id": "5",
+      "customer": "OrbitWave",
+      "message": "One request from our team: we need a more flexible CRM integration.",
+      "summary": "Customer requests a more flexible CRM integration for their team. This is an explicit feature request indicating the current integration is insufficient. The need remains unresolved and affects their operational workflows.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-08-02",
+      "revenue": 798.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "5"
+      ]
+    },
+    {
+      "id": "48",
+      "customer": "WillowStone",
+      "message": "One request from our team: could you add automated user permissions?",
+      "summary": "The customer requests automated user permissions to manage access. This is a missing capability that is creating manual administrative work. They expect an automated permissions feature to streamline user management.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-07-22",
+      "revenue": 763.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "48"
+      ]
+    }
+  ],
+  "feature_request_summary": {
+    "count": 105,
+    "percentage": 70.0
+  },
+  "churn_signals": [
+    {
+      "id": "3",
+      "customer": "MapleRidge",
+      "message": "We are evaluating another product because it has the Salesforce integration we need. We need to decide soon.",
+      "evidence": "Customer is evaluating a competitor because that product has the Salesforce integration they need. They state they need to decide soon, creating clear churn risk. The missing integration is unresolved and blocking their retention.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "chat",
+      "date": "2026-03-02",
+      "revenue": 14892.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "3"
+      ]
+    },
+    {
+      "id": "40",
+      "customer": "QuartzGrove",
+      "message": "We are considering switching unless the approval workflow improves soon.",
+      "evidence": "Customer is considering switching unless the approval workflow improves soon, tying the issue to potential churn. They explicitly request improvements to the approval workflow, which is currently inadequate for their needs. The unresolved problem threatens retention if not addressed quickly.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "chat",
+      "date": "2026-02-28",
+      "revenue": 12636.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "approval workflow",
+      "unresolved_issue": true,
+      "source_ids": [
+        "40"
+      ]
+    },
+    {
+      "id": "38",
+      "customer": "AlpineMill",
+      "message": "We are evaluating another product because it has the notification system we need. We need to decide soon.",
+      "evidence": "Customer is evaluating a competitor because that product has the notification system they need and says they must decide soon. This indicates the lack of a notification system is a competitive gap and creates clear churn risk. The capability is currently unmet and unresolved.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "call",
+      "date": "2026-04-12",
+      "revenue": 11124.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "notifications",
+      "unresolved_issue": true,
+      "source_ids": [
+        "38"
+      ]
+    },
+    {
+      "id": "11",
+      "customer": "SummitBridge",
+      "message": "We are evaluating another product because it has the invoice history we need. We need to decide soon.",
+      "evidence": "Customer is evaluating another product because it provides the invoice history they need and must decide soon. This creates clear churn risk tied to a missing billing/reporting capability. The invoice history requirement is unresolved and impacting their renewal decision.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "call",
+      "date": "2026-06-02",
+      "revenue": 10445.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "unresolved_issue": true,
+      "source_ids": [
+        "11"
+      ]
+    },
+    {
+      "id": "137",
+      "customer": "AtlasField",
+      "message": "We are considering switching because the invoice history workflow is too difficult to use.",
+      "evidence": "The customer finds the invoice history workflow difficult to use and is considering switching vendors. They are asking implicitly for improvements to make invoice history easier to navigate. This is a retention risk if the billing workflow is not improved.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-07-25",
+      "revenue": 6153.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "unresolved_issue": true,
+      "source_ids": [
+        "137"
+      ]
+    },
+    {
+      "id": "56",
+      "customer": "CobaltField",
+      "message": "We may leave next quarter unless the Salesforce integration improves. This is becoming important for our renewal decision.",
+      "evidence": "The customer states they may leave next quarter unless the Salesforce integration improves, tying the integration quality to renewal. This is an explicit retention risk driven by integration shortcomings. They expect meaningful improvements to the Salesforce integration before renewal.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-04-23",
+      "revenue": 5803.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "56"
+      ]
+    },
+    {
+      "id": "131",
+      "customer": "DeltaLine",
+      "message": "We are evaluating another product because it has the audit log we need. We need to decide soon.",
+      "evidence": "The customer is evaluating another product because it offers an audit log they need, creating an immediate competitive threat. They implicitly request an audit log capability and need to decide soon, indicating a strong churn risk if the feature is not provided.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "call",
+      "date": "2026-06-18",
+      "revenue": 5677.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "unresolved_issue": true,
+      "source_ids": [
+        "131"
+      ]
+    },
+    {
+      "id": "44",
+      "customer": "NorthReach",
+      "message": "We may leave next quarter unless the export tool improves. This is becoming important for our renewal decision.",
+      "evidence": "Customer warns they may leave next quarter unless the export tool improves and ties this to their renewal decision. This is an explicit request for export functionality improvements and conveys material churn risk. The problem is unresolved and is influencing their retention decision.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-03-14",
+      "revenue": 5611.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "export",
+      "unresolved_issue": true,
+      "source_ids": [
+        "44"
+      ]
+    },
+    {
+      "id": "120",
+      "customer": "OrbitGroup",
+      "message": "We are considering switching because the CRM integration workflow is too difficult to use.",
+      "evidence": "The customer is considering switching because the CRM integration workflow is too difficult to use. They need an easier or improved CRM integration experience to retain them. This is a serious unresolved usability issue that presents a real churn risk.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-05-21",
+      "revenue": 5313.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "120"
+      ]
+    },
+    {
+      "id": "124",
+      "customer": "OrbitPeak",
+      "message": "We may leave next quarter unless the approval workflow improves. This is becoming important for our renewal decision.",
+      "evidence": "The customer warns they may leave next quarter unless the approval workflow improves, tying the issue directly to their renewal decision. This represents a material retention risk and an explicit request to enhance the approval workflow.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "call",
+      "date": "2026-10-04",
+      "revenue": 5280.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "workflow",
+      "unresolved_issue": true,
+      "source_ids": [
+        "124"
+      ]
+    },
+    {
+      "id": "54",
+      "customer": "MapleGroup",
+      "message": "If the file upload tool issue is not fixed, we may cancel at renewal.",
+      "evidence": "The customer warns they may cancel at renewal if the file upload tool issue is not fixed. The message indicates a clear retention risk tied to unresolved problems with the upload tool. They expect a timely fix to avoid switching.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-08-24",
+      "revenue": 5043.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "unresolved_issue": true,
+      "source_ids": [
+        "54"
+      ]
+    },
+    {
+      "id": "96",
+      "customer": "CopperField",
+      "message": "If the team management panel issue is not fixed, we may cancel at renewal.",
+      "evidence": "The customer flags an ongoing issue with the team management panel and states they may cancel at renewal if it is not fixed. This expresses a clear retention risk tied to an unresolved product problem. Resolving the panel issue is critical to prevent churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-06-16",
+      "revenue": 4880.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "unresolved_issue": true,
+      "source_ids": [
+        "96"
+      ]
+    },
+    {
+      "id": "88",
+      "customer": "NovaSystems",
+      "message": "We are evaluating another product because it has the billing dashboard we need. We need to decide soon.",
+      "evidence": "The customer is evaluating another product because it has the billing dashboard they need and says they must decide soon. This is an explicit churn risk driven by a missing billing-dashboard capability. The need is unresolved and could result in them switching if the feature gap isn't addressed quickly.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-03-10",
+      "revenue": 3871.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "unresolved_issue": true,
+      "source_ids": [
+        "88"
+      ]
+    },
+    {
+      "id": "127",
+      "customer": "SunField",
+      "message": "We are considering switching unless the notification system improves soon.",
+      "evidence": "The customer says they may switch unless the notification system improves soon, signaling a renewal/retention risk. They request enhancements to notifications and expect fixes to avoid changing vendors.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-01-30",
+      "revenue": 3588.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "notifications",
+      "unresolved_issue": true,
+      "source_ids": [
+        "127"
+      ]
+    },
+    {
+      "id": "102",
+      "customer": "SapphireYard",
+      "message": "We are considering switching because the API access workflow is too difficult to use.",
+      "evidence": "The customer is considering switching because the API access workflow is too difficult to use. They implicitly request improvements to API access or workflow to retain them. This is an unresolved issue that presents a clear churn risk if not addressed.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "email",
+      "date": "2026-06-12",
+      "revenue": 3486.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "102"
+      ]
+    },
+    {
+      "id": "116",
+      "customer": "GoldenForge",
+      "message": "We may leave next quarter unless the search feature improves. This is becoming important for our renewal decision.",
+      "evidence": "The customer warns they may leave next quarter unless the search feature improves and states this will influence their renewal decision. Poor search performance is a critical unmet need for them. This represents a clear retention risk tied to search functionality and an unresolved product issue.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "email",
+      "date": "2026-08-23",
+      "revenue": 3439.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "search",
+      "unresolved_issue": true,
+      "source_ids": [
+        "116"
+      ]
+    },
+    {
+      "id": "126",
+      "customer": "BoldWorks",
+      "message": "We are considering switching unless the two-factor login improves soon.",
+      "evidence": "The customer is considering switching unless two-factor login improves soon, indicating an urgent retention risk. They request improvements to the two-factor authentication experience to avoid churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-09-07",
+      "revenue": 3377.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "login",
+      "unresolved_issue": true,
+      "source_ids": [
+        "126"
+      ]
+    },
+    {
+      "id": "128",
+      "customer": "SapphireGroup",
+      "message": "If the CRM integration issue is not fixed, we may cancel at renewal.",
+      "evidence": "The customer indicates a CRM integration issue that, if not fixed, may lead them to cancel at renewal. This is an active integration problem with direct implications for retention and requires a fix to avoid churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "email",
+      "date": "2026-08-27",
+      "revenue": 3209.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "128"
+      ]
+    },
+    {
+      "id": "7",
+      "customer": "OnyxWave",
+      "message": "We are considering switching because the billing dashboard workflow is too difficult to use.",
+      "evidence": "Customer is considering switching because the billing dashboard workflow is too difficult to use. They indicate active consideration of alternatives, which is a significant churn signal. The usability problem is unresolved and directly threatening retention.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-09-25",
+      "revenue": 3184.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "billing",
+      "unresolved_issue": true,
+      "source_ids": [
+        "7"
+      ]
+    },
+    {
+      "id": "32",
+      "customer": "ClearLine",
+      "message": "We may leave next quarter unless the file upload tool improves. This is becoming important for our renewal decision.",
+      "evidence": "Customer warns they may leave next quarter unless the file upload tool improves and ties this to their renewal decision. The message signals meaningful churn risk and requests improvement to a specific capability. The issue appears unresolved and is materially affecting their retention outlook.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "email",
+      "date": "2026-05-28",
+      "revenue": 3172.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "file upload",
+      "unresolved_issue": true,
+      "source_ids": [
+        "32"
+      ]
+    },
+    {
+      "id": "45",
+      "customer": "CedarLoop",
+      "message": "We are considering switching unless the reporting module improves soon.",
+      "evidence": "Customer is considering switching unless the reporting module improves soon, creating a direct renewal/retention concern. They request enhancements to reporting capabilities and the issue is unresolved. Addressing reporting deficits is needed to reduce the risk of churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-09-23",
+      "revenue": 2738.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "unresolved_issue": true,
+      "source_ids": [
+        "45"
+      ]
+    },
+    {
+      "id": "80",
+      "customer": "IvoryPartners",
+      "message": "We are considering switching unless the user permissions improves soon.",
+      "evidence": "The customer is considering switching unless user permissions improve soon, which is an explicit retention risk. They request better user permissions controls, indicating the current access management does not meet their needs. This is an unresolved, high-priority issue that could lead to churn if not addressed promptly.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-06-22",
+      "revenue": 2255.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "account management",
+      "unresolved_issue": true,
+      "source_ids": [
+        "80"
+      ]
+    },
+    {
+      "id": "67",
+      "customer": "SwiftLine",
+      "message": "If the export tool issue is not fixed, we may cancel at renewal.",
+      "evidence": "The customer threatens cancellation at renewal if the export tool issue is not fixed, signaling clear retention risk. The export tool problem is ongoing and unresolved. Fixing the export functionality is urgent to avoid churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-09-02",
+      "revenue": 2174.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "export",
+      "unresolved_issue": true,
+      "source_ids": [
+        "67"
+      ]
+    },
+    {
+      "id": "71",
+      "customer": "SwiftVentures",
+      "message": "If the data import tool issue is not fixed, we may cancel at renewal.",
+      "evidence": "The customer warns they may cancel at renewal if the data import tool issue is not fixed, showing clear churn risk. The import tool problem is ongoing and unresolved. Timely remediation is required to retain this customer.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Pro",
+      "channel": "chat",
+      "date": "2026-08-16",
+      "revenue": 2023.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "data import",
+      "unresolved_issue": true,
+      "source_ids": [
+        "71"
+      ]
+    },
+    {
+      "id": "24",
+      "customer": "SunReach",
+      "message": "We are evaluating another product because it has the search feature we need. We need to decide soon.",
+      "evidence": "Customer is evaluating another product because that product has the search feature they need and they must decide soon. This is an implicit request for a search capability and represents immediate churn risk. The missing feature is blocking their decision to stay.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "chat",
+      "date": "2026-10-08",
+      "revenue": 1141.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "unresolved_issue": true,
+      "source_ids": [
+        "24"
+      ]
+    },
+    {
+      "id": "72",
+      "customer": "SwiftReach",
+      "message": "We are evaluating another product because it has the team management panel we need. We need to decide soon.",
+      "evidence": "The customer is evaluating a competitor because that product has a team management panel they need, and they must decide soon. This demonstrates both a missing feature and immediate retention risk. Building or delivering a team management panel may be necessary to prevent churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "chat",
+      "date": "2026-04-21",
+      "revenue": 1053.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "feature request",
+      "unresolved_issue": true,
+      "source_ids": [
+        "72"
+      ]
+    },
+    {
+      "id": "12",
+      "customer": "CoralWorks",
+      "message": "We may leave next quarter unless the invoice history improves. This is becoming important for our renewal decision.",
+      "evidence": "Customer states they may leave next quarter unless invoice history improves and ties this directly to their renewal decision. This is an explicit churn threat and indicates the billing history feature is currently insufficient. The problem remains unresolved and requires urgent attention to retain the account.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "call",
+      "date": "2026-08-08",
+      "revenue": 957.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "billing",
+      "unresolved_issue": true,
+      "source_ids": [
+        "12"
+      ]
+    },
+    {
+      "id": "37",
+      "customer": "VertexCove",
+      "message": "We may leave next quarter unless the calendar sync improves. This is becoming important for our renewal decision.",
+      "evidence": "Customer threatens to leave next quarter unless calendar sync improves and links this to their renewal decision. This is a direct ask for better calendar synchronization and represents a meaningful churn risk. The issue remains unresolved and is affecting their retention consideration.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "chat",
+      "date": "2026-10-10",
+      "revenue": 703.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "calendar sync",
+      "unresolved_issue": true,
+      "source_ids": [
+        "37"
+      ]
+    },
+    {
+      "id": "59",
+      "customer": "FalconPartners",
+      "message": "We are considering switching because the approval workflow workflow is too difficult to use.",
+      "evidence": "The customer is considering switching because the approval workflow is too difficult to use, which is an explicit retention risk. The usability of the approval workflow is blocking their operations. They expect improvements to workflow usability to avoid churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "chat",
+      "date": "2026-06-26",
+      "revenue": 638.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "unresolved_issue": true,
+      "source_ids": [
+        "59"
+      ]
+    },
+    {
+      "id": "18",
+      "customer": "OrbitField",
+      "message": "We are considering switching because the user permissions workflow is too difficult to use.",
+      "evidence": "Customer is considering switching because the user permissions workflow is too difficult to use. They implicitly request improvements to permissions management. This expresses clear churn risk and an unresolved usability issue that affects retention.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "call",
+      "date": "2026-05-16",
+      "revenue": 629.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "unresolved_issue": true,
+      "source_ids": [
+        "18"
+      ]
+    }
+  ],
+  "churn_summary": {
+    "count": 30,
+    "percentage": 20.0
+  },
+  "feature_request_insight": "Feature demand is concentrated on integrations (Salesforce and calendar sync), better reporting/analytics, billing and invoice history, and admin/team-management controls; these specific gaps are present in the top_problems list and feature_topics. Because 70% of records contain feature requests and integration/reporting appear repeatedly, items framed as capability questions (e.g., “missing_salesforce_integration”) should be treated as explicit requests. Prioritizing these features will address the largest documented demand signals.",
+  "churn_insight": "There is meaningful retention risk: 30 records (20%) contain churn signals, disproportionately tied to integration, billing, and usability issues (integration:5, billing:4, usability:4 in churn_topics). The very high unresolved-issue rate (140 records) and prevailing negative sentiment suggest customers needing integrations or billing clarity are most likely to leave unless issues are resolved or mitigations (clear timelines, compensations, or hands-on onboarding) are provided.",
+  "unresolved_issues": {
+    "count": 140,
+    "percentage": 93.3
+  },
+  "top_topics": [
+    {
+      "name": "feature request",
+      "count": 32,
+      "percentage": 21.3
+    },
+    {
+      "name": "support",
+      "count": 18,
+      "percentage": 12.0
+    },
+    {
+      "name": "onboarding",
+      "count": 17,
+      "percentage": 11.3
+    },
+    {
+      "name": "integration",
+      "count": 14,
+      "percentage": 9.3
+    },
+    {
+      "name": "reporting",
+      "count": 13,
+      "percentage": 8.7
+    },
+    {
+      "name": "performance",
+      "count": 11,
+      "percentage": 7.3
+    },
+    {
+      "name": "billing",
+      "count": 9,
+      "percentage": 6.0
+    },
+    {
+      "name": "product usability",
+      "count": 6,
+      "percentage": 4.0
+    },
+    {
+      "name": "notifications",
+      "count": 5,
+      "percentage": 3.3
+    },
+    {
+      "name": "search",
+      "count": 4,
+      "percentage": 2.7
+    }
+  ],
+  "high_value": [
+    {
+      "id": "35",
+      "customer": "OrbitReach",
+      "revenue": 15743.0,
+      "message": "We need a better two-factor login for our team going forward.",
+      "evidence": "Customer states they need a better two-factor login for their team going forward. This is a clear request for an improved security/authentication feature and is currently unmet. Delivering stronger 2FA would satisfy the stated need."
+    },
+    {
+      "id": "119",
+      "customer": "GoldenMill",
+      "revenue": 15546.0,
+      "message": "The support portal is slow when we load a large dataset.",
+      "evidence": "The customer reports the support portal is slow when loading large datasets. This performance issue affects their ability to use the portal effectively with big data. The problem is ongoing and needs technical remediation."
+    },
+    {
+      "id": "31",
+      "customer": "NorthWorks",
+      "revenue": 15133.0,
+      "message": "One request from our team: could you add automated two-factor login?",
+      "evidence": "Customer requests automated two-factor login for their team. This is a direct ask for a missing security feature and remains unresolved. Implementing 2FA would meet their stated need and improve account security for the team."
+    },
+    {
+      "id": "73",
+      "customer": "SilverReach",
+      "revenue": 15097.0,
+      "message": "One request from our team: could you add automated calendar sync?",
+      "evidence": "The customer requests automated calendar sync, indicating the capability does not exist today. This is an explicit feature request and an unresolved need for their team. Implementing calendar synchronization would fulfill their requirement."
+    },
+    {
+      "id": "118",
+      "customer": "OnyxGate",
+      "revenue": 15059.0,
+      "message": "One request from our team: we need a more flexible user permissions.",
+      "evidence": "The customer requests more flexible user permissions for their team. The current permissions model does not meet their needs and requires enhancement. This is an unresolved feature request related to access control."
+    },
+    {
+      "id": "123",
+      "customer": "NimbusPoint",
+      "revenue": 14918.0,
+      "message": "Please add two-factor login; the manual process is painful for our team.",
+      "evidence": "The customer asks for two-factor login because the current manual process is painful for their team. This is a request to add multi-factor authentication to improve security and usability."
+    },
+    {
+      "id": "3",
+      "customer": "MapleRidge",
+      "revenue": 14892.0,
+      "message": "We are evaluating another product because it has the Salesforce integration we need. We need to decide soon.",
+      "evidence": "Customer is evaluating a competitor because that product has the Salesforce integration they need. They state they need to decide soon, creating clear churn risk. The missing integration is unresolved and blocking their retention."
+    },
+    {
+      "id": "9",
+      "customer": "WillowWorks",
+      "revenue": 14471.0,
+      "message": "It would help if we had better documentation for the user permissions.",
+      "evidence": "Customer requests better documentation for user permissions. They indicate a documentation gap that hinders effective use of permission features. The need is unresolved and improving docs could reduce support load and user confusion."
+    },
+    {
+      "id": "74",
+      "customer": "OrbitHealth",
+      "revenue": 14458.0,
+      "message": "Can you explain how to configure search results?",
+      "evidence": "The customer asks for instructions on configuring search results, showing they lack necessary guidance. This is a support/configuration request and remains unresolved. Providing step-by-step guidance or documentation would resolve their issue."
+    },
+    {
+      "id": "69",
+      "customer": "HarborYard",
+      "revenue": 14268.0,
+      "message": "We need a better user permissions for our team going forward.",
+      "evidence": "The customer says they need better user permissions for their team, indicating current permission controls are insufficient. This is a request for improved functionality and remains unresolved. Enhancing permissions management would meet their operational needs."
+    },
+    {
+      "id": "101",
+      "customer": "EchoPeak",
+      "revenue": 14245.0,
+      "message": "The Salesforce integration is missing and it is creating extra manual work for our team.",
+      "evidence": "The customer reports that Salesforce integration is missing and that this creates extra manual work. They are implicitly requesting the integration to eliminate manual processes. The missing integration is an unresolved blocker for more efficient workflows."
+    },
+    {
+      "id": "103",
+      "customer": "NovaStone",
+      "revenue": 14070.0,
+      "message": "We like the product overall, but the onboarding flow still needs work.",
+      "evidence": "The customer likes the product overall but notes the onboarding flow still needs work. This identifies an unresolved area affecting new user activation. Improving onboarding would likely increase their satisfaction."
+    },
+    {
+      "id": "93",
+      "customer": "HarborPeak",
+      "revenue": 14052.0,
+      "message": "It would help if we had better documentation for the search feature.",
+      "evidence": "The customer requests better documentation for the search feature to make it more usable. They indicate current documentation is lacking, which is an unresolved barrier to effective use. Improving docs would address their need for clearer guidance."
+    },
+    {
+      "id": "142",
+      "customer": "TerraLoop",
+      "revenue": 13796.0,
+      "message": "One request from our team: please add API access for our workflow.",
+      "evidence": "The team requests API access to integrate their workflow with the product. The absence of an API is blocking their desired integrations. Providing API access would enable automated interactions and workflow integration."
+    },
+    {
+      "id": "64",
+      "customer": "ClearHollow",
+      "revenue": 13617.0,
+      "message": "Can you explain how to configure the approval workflow?",
+      "evidence": "The customer asks for an explanation on configuring the approval workflow, indicating they lack sufficient guidance. This is a support request and an unresolved configuration need. Providing clear instructions or documentation would resolve their blocker."
+    },
+    {
+      "id": "111",
+      "customer": "GoldenLabs",
+      "revenue": 13555.0,
+      "message": "We need a better CRM integration for our team going forward.",
+      "evidence": "The customer requests a better CRM integration for their team going forward. Current CRM integration capabilities are inadequate for their needs. This is a product integration gap that remains unresolved."
+    },
+    {
+      "id": "108",
+      "customer": "BrightRise",
+      "revenue": 13422.0,
+      "message": "One request from our team: we need a more flexible team management panel.",
+      "evidence": "The customer explicitly requests a more flexible team management panel. Their team needs enhanced controls or features in team management that the product currently lacks. This is a product gap that is unresolved for them."
+    },
+    {
+      "id": "84",
+      "customer": "AmberPoint",
+      "revenue": 13186.0,
+      "message": "One request from our team: we are doing too much manual work around notification system and want automation.",
+      "evidence": "The customer reports doing too much manual work around the notification system and requests automation. This is a clear feature/automation request to reduce manual effort. The lack of automation remains an unresolved operational burden for their team."
+    },
+    {
+      "id": "107",
+      "customer": "NimbusCrest",
+      "revenue": 13061.0,
+      "message": "Can you explain how to configure reports?",
+      "evidence": "Customer asked for guidance on how to configure reports. They need step-by-step instructions or documentation to complete report setup. This is an active support/knowledge gap that prevents them from using reporting effectively."
+    },
+    {
+      "id": "40",
+      "customer": "QuartzGrove",
+      "revenue": 12636.0,
+      "message": "We are considering switching unless the approval workflow improves soon.",
+      "evidence": "Customer is considering switching unless the approval workflow improves soon, tying the issue to potential churn. They explicitly request improvements to the approval workflow, which is currently inadequate for their needs. The unresolved problem threatens retention if not addressed quickly."
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Startup",
+      "count": 80,
+      "percentage": 53.3,
+      "negative": 43,
+      "churn": 16,
+      "revenue": 417846.0
+    },
+    {
+      "segment": "SMB",
+      "count": 70,
+      "percentage": 46.7,
+      "negative": 38,
+      "churn": 14,
+      "revenue": 399169.0
+    }
+  ],
+  "source_counts": {
+    "email": 21,
+    "call": 24,
+    "chat": 105
+  },
+  "suggested_questions": [
+    "Which feature are customers most complaining about?",
+    "Which features should we add to the roadmap, especially where high-profile customers are asking even though request volume is lower?",
+    "Which clients are likely to churn and why? Prioritize high-profile customers first.",
+    "Which customer problems are causing the most unresolved friction and what should we fix first?",
+    "Which customer segments or accounts show the strongest combination of business impact and recurring product pain?"
+  ],
+  "aggregates": {
+    "total_records": 150,
+    "sentiment": {
+      "positive": 10,
+      "negative": 81,
+      "neutral": 59,
+      "percentages": {
+        "positive": 6.7,
+        "negative": 54.0,
+        "neutral": 39.3
+      }
+    },
+    "feature_requests": {
+      "count": 105,
+      "percentage": 70.0
+    },
+    "churn_signals": {
+      "count": 30,
+      "percentage": 20.0
+    },
+    "unresolved_issues": {
+      "count": 140,
+      "percentage": 93.3
+    },
+    "top_topics": [
+      {
+        "name": "feature request",
+        "count": 32,
+        "percentage": 21.3
+      },
+      {
+        "name": "support",
+        "count": 18,
+        "percentage": 12.0
+      },
+      {
+        "name": "onboarding",
+        "count": 17,
+        "percentage": 11.3
+      },
+      {
+        "name": "integration",
+        "count": 14,
+        "percentage": 9.3
+      },
+      {
+        "name": "reporting",
+        "count": 13,
+        "percentage": 8.7
+      },
+      {
+        "name": "performance",
+        "count": 11,
+        "percentage": 7.3
+      },
+      {
+        "name": "billing",
+        "count": 9,
+        "percentage": 6.0
+      },
+      {
+        "name": "product usability",
+        "count": 6,
+        "percentage": 4.0
+      },
+      {
+        "name": "notifications",
+        "count": 5,
+        "percentage": 3.3
+      },
+      {
+        "name": "search",
+        "count": 4,
+        "percentage": 2.7
+      }
+    ],
+    "top_problems": [
+      {
+        "name": "missing_invoice_history",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "missing salesforce integration",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "missing calendar sync",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "missing two-factor authentication",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "missing invoice history",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "missing team management panel",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "approval workflow limitations",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "pricing_concern",
+        "count": 1,
+        "percentage": 0.7
+      },
+      {
+        "name": "need_more_flexible_analytics_dashboard",
+        "count": 1,
+        "percentage": 0.7
+      },
+      {
+        "name": "missing_salesforce_integration",
+        "count": 1,
+        "percentage": 0.7
+      }
+    ],
+    "feature_topics": [
+      {
+        "name": "feature request",
+        "count": 32,
+        "percentage": 21.3
+      },
+      {
+        "name": "integration",
+        "count": 14,
+        "percentage": 9.3
+      },
+      {
+        "name": "reporting",
+        "count": 10,
+        "percentage": 6.7
+      },
+      {
+        "name": "billing",
+        "count": 9,
+        "percentage": 6.0
+      },
+      {
+        "name": "onboarding",
+        "count": 7,
+        "percentage": 4.7
+      },
+      {
+        "name": "product usability",
+        "count": 4,
+        "percentage": 2.7
+      },
+      {
+        "name": "search",
+        "count": 4,
+        "percentage": 2.7
+      },
+      {
+        "name": "notifications",
+        "count": 4,
+        "percentage": 2.7
+      },
+      {
+        "name": "support",
+        "count": 3,
+        "percentage": 2.0
+      },
+      {
+        "name": "login",
+        "count": 3,
+        "percentage": 2.0
+      }
+    ],
+    "churn_topics": [
+      {
+        "name": "integration",
+        "count": 5,
+        "percentage": 3.3
+      },
+      {
+        "name": "billing",
+        "count": 4,
+        "percentage": 2.7
+      },
+      {
+        "name": "product usability",
+        "count": 4,
+        "percentage": 2.7
+      },
+      {
+        "name": "feature request",
+        "count": 3,
+        "percentage": 2.0
+      },
+      {
+        "name": "notifications",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "export",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "reporting",
+        "count": 2,
+        "percentage": 1.3
+      },
+      {
+        "name": "file upload",
+        "count": 1,
+        "percentage": 0.7
+      },
+      {
+        "name": "calendar sync",
+        "count": 1,
+        "percentage": 0.7
+      },
+      {
+        "name": "approval workflow",
+        "count": 1,
+        "percentage": 0.7
+      }
+    ],
+    "channels": {
+      "email": 21,
+      "call": 24,
+      "chat": 105
+    },
+    "plans": [
+      {
+        "name": "Pro",
+        "count": 84
+      },
+      {
+        "name": "Enterprise",
+        "count": 34
+      },
+      {
+        "name": "Basic",
+        "count": 32
+      }
+    ],
+    "customer_types": [
+      {
+        "name": "Startup",
+        "count": 80
+      },
+      {
+        "name": "SMB",
+        "count": 70
+      }
+    ]
+  },
+  "analysis_method": "OpenAI analyzed all 150 uploaded records in small internal batches of up to 30 records. Classifications and aggregate counts were calculated across all analyzed records.",
+  "coverage": {
+    "total_records": 150,
+    "analyzed_records": 150,
+    "remaining_records": 0,
+    "percentage": 100,
+    "label": "Analyzed all 150 records"
+  }
+}

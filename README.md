@@ -17,6 +17,22 @@ Instead of manually reviewing hundreds of customer conversations, teams can use 
 - AI-powered "Ask Your Data"
 - Evidence-based answers from customer conversations
 
+### Preserving Analyzed Data
+
+After each dataset is analyzed, the analyzed customer feedback and generated insights are also preserved in CSV format.
+
+Each analysis run is stored separately so that previous analyzed datasets are not overwritten or deleted.
+
+The CSV data can be used later for:
+
+- Reviewing previous analysis results
+- Further data analysis
+- Reporting
+- Historical comparison
+- Reusing analyzed customer feedback
+
+This allows the system to preserve the analyzed data even after a new dataset is uploaded and analyzed.
+
 ## Project Structure
 
 ```text

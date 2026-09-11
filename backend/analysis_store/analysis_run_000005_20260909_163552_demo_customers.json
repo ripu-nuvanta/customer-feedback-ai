@@ -1,0 +1,965 @@
+{
+  "total": 30,
+  "total_records": 30,
+  "analyzed_records": 30,
+  "analyzed_all_records": true,
+  "analysis_complete": true,
+  "analysis_batch_size": 30,
+  "analysis_batches": 2,
+  "unique_customers": 30,
+  "overview": {
+    "headline": "High unresolved onboarding and integration gaps driving demand for integrations and creating measurable churn risk",
+    "summary": "Across 30 records we see a negative tilt (15 negative, 6 positive, 9 neutral) with 24 unresolved issues (80%) and 19 explicit feature requests (63.3%). Onboarding is the single largest topic (6 mentions) followed by integration and feature requests (each 5 mentions); performance and reporting also recur. Specific asks and pain points include missing Salesforce/CRM integrations, no mobile app, reporting export limitations and onboarding friction. Churn signals are present (6 records, 20%) and concentrate around onboarding and integration problems.",
+    "priority": "Immediately reduce the 24 unresolved issues by triaging and closing onboarding and integration tickets (prioritize Salesforce/CRM integration questions, mobile capability gaps, and reporting/export blockers).",
+    "source_ids": [],
+    "ai_generated": true,
+    "coverage": "Analyzed all 30 records"
+  },
+  "sentiment": {
+    "positive": 6,
+    "negative": 15,
+    "neutral": 9,
+    "percentages": {
+      "positive": 20.0,
+      "negative": 50.0,
+      "neutral": 30.0
+    }
+  },
+  "problems": [
+    {
+      "name": "missing salesforce integration",
+      "mentions": 2,
+      "percentage": 6.7,
+      "summary": "The most important recurring problem is onboarding friction compounded by missing integrations and capability gaps. Customers repeatedly report difficulty completing setup and key workflows during onboarding and call out absent integrations (Salesforce/CRM), lack of a mobile app, and reporting/export limitations that prevent them from realizing value.",
+      "source_ids": []
+    },
+    {
+      "name": "no mobile app",
+      "mentions": 2,
+      "percentage": 6.7,
+      "summary": "This issue appears in 2 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing crm integration",
+      "mentions": 2,
+      "percentage": 6.7,
+      "summary": "This issue appears in 2 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "confusing/lengthy onboarding",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "slow dashboard with large reports",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "poor onboarding risking cancellation",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "missing slack notifications",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "reporting lacks required export",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "price becoming too expensive",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    },
+    {
+      "name": "repeated configuration issues during setup",
+      "mentions": 1,
+      "percentage": 3.3,
+      "summary": "This issue appears in 1 of 30 records.",
+      "source_ids": []
+    }
+  ],
+  "feature_requests": [
+    {
+      "id": "5",
+      "customer": "Vertex",
+      "message": "If the onboarding does not improve, we may cancel next month.",
+      "summary": "Customer threatens cancellation next month if onboarding does not improve, signaling urgent retention risk. They implicitly request improved onboarding processes. The problem is unresolved and requires immediate attention to avoid churn.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-08-04",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "source_ids": [
+        "5"
+      ]
+    },
+    {
+      "id": "15",
+      "customer": "Vertex",
+      "message": "We need a way to automate weekly reports.",
+      "summary": "Customer requests a way to automate weekly reports, indicating the current lack of automation is impacting their workflow. This is an explicit feature request and remains unresolved. Implementing automated report scheduling would meet their stated need.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-08-13",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "reporting",
+      "source_ids": [
+        "15"
+      ]
+    },
+    {
+      "id": "23",
+      "customer": "Vertex",
+      "message": "The pricing is hard to justify without the integrations.",
+      "summary": "The customer finds the pricing hard to justify without the required integrations. They implicitly request integrations to justify cost, and the absence of those integrations is an unresolved concern. This impacts perceived value relative to price.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-21",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "pricing",
+      "source_ids": [
+        "23"
+      ]
+    },
+    {
+      "id": "28",
+      "customer": "Vertex",
+      "message": "If performance and reporting don't improve, we will reconsider renewal.",
+      "summary": "The customer warns they will reconsider renewal if performance and reporting do not improve, creating immediate retention risk. They are requesting improvements to performance and reporting, which are currently inadequate. These unresolved issues threaten the customer's renewal decision.",
+      "reason": "",
+      "channel": "call",
+      "date": "2026-08-26",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "performance",
+      "source_ids": [
+        "28"
+      ]
+    },
+    {
+      "id": "11",
+      "customer": "DeltaWorks",
+      "message": "We are considering switching because the integration with our CRM is missing.",
+      "summary": "Customer is considering switching because the integration with their CRM is missing, an explicit cause of retention risk. They are requesting that CRM integration be provided. The missing integration is unresolved and materially affecting their willingness to stay.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-09",
+      "revenue": 11000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "11"
+      ]
+    },
+    {
+      "id": "17",
+      "customer": "DeltaWorks",
+      "message": "We may leave if the Salesforce integration is not available soon.",
+      "summary": "The customer states they may leave if the Salesforce integration is not available soon, creating clear retention risk. They explicitly need a Salesforce integration that is currently missing. The lack of this integration remains an unresolved blocker for the customer.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-15",
+      "revenue": 11000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "12",
+      "customer": "Orbit",
+      "message": "The API integration is important for our workflow.",
+      "summary": "Customer states that API integration is important for their workflow, indicating a need for that capability. This is an explicit request for integration functionality and appears unresolved. Delivering or clarifying API integration would address their workflow requirement.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-10",
+      "revenue": 9600.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "12"
+      ]
+    },
+    {
+      "id": "30",
+      "customer": "Orbit",
+      "message": "Please improve report loading time and add more export options.",
+      "summary": "The customer asks for improved report loading times and more export options, indicating performance problems and missing export functionality. These are explicit requests and remain unresolved. The issues impact their ability to use reporting efficiently.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-27",
+      "revenue": 9600.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "performance",
+      "source_ids": [
+        "30"
+      ]
+    },
+    {
+      "id": "2",
+      "customer": "Northstar",
+      "message": "We really need a Salesforce integration because the manual export is painful.",
+      "summary": "Customer says manual export is painful and explicitly requests a Salesforce integration. The lack of this integration is causing a painful workflow that remains unresolved. Delivering the integration would remove a manual bottleneck for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-02",
+      "revenue": 4200.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "source_ids": [
+        "2"
+      ]
+    },
+    {
+      "id": "7",
+      "customer": "Northstar",
+      "message": "The reporting does not give us the export we need.",
+      "summary": "Customer says reporting does not provide the export they need and is implicitly requesting enhanced export capabilities. The missing export is blocking their reporting workflow and remains unresolved. Providing the requested export format would address their need.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-05",
+      "revenue": 4200.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "reporting",
+      "source_ids": [
+        "7"
+      ]
+    },
+    {
+      "id": "21",
+      "customer": "Northstar",
+      "message": "We need better onboarding documentation.",
+      "summary": "The customer asks for better onboarding documentation, indicating current materials are inadequate. This is an explicit request to improve documentation and remains unresolved. Improved onboarding docs are needed to support their setup and adoption.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-19",
+      "revenue": 4200.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "onboarding",
+      "source_ids": [
+        "21"
+      ]
+    },
+    {
+      "id": "27",
+      "customer": "Northstar",
+      "message": "The CRM integration would save us a lot of manual work.",
+      "summary": "The customer says a CRM integration would save a lot of manual work, signaling a need for a CRM connector. This is an explicit integration request that is currently unmet. The lack of integration creates manual work for their team.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-25",
+      "revenue": 4200.0,
+      "customer_type": "SMB",
+      "sentiment": "neutral",
+      "topic": "integration",
+      "source_ids": [
+        "27"
+      ]
+    },
+    {
+      "id": "4",
+      "customer": "BluePeak",
+      "message": "We love the product, but please add a mobile app.",
+      "summary": "Customer expresses strong product satisfaction but requests a mobile app. The feature is explicitly requested and would extend the product’s accessibility on mobile devices. Adding a mobile app could increase engagement from this customer.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-03",
+      "revenue": 3100.0,
+      "customer_type": "Startup",
+      "sentiment": "positive",
+      "topic": "feature request",
+      "source_ids": [
+        "4"
+      ]
+    },
+    {
+      "id": "13",
+      "customer": "BluePeak",
+      "message": "Would love better analytics and custom reports.",
+      "summary": "Customer would like better analytics and the ability to create custom reports. They express interest rather than dissatisfaction with the overall product. Adding enhanced analytics and customizable reporting would fulfill this requested capability.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-11",
+      "revenue": 3100.0,
+      "customer_type": "Startup",
+      "sentiment": "positive",
+      "topic": "reporting",
+      "source_ids": [
+        "13"
+      ]
+    },
+    {
+      "id": "22",
+      "customer": "BluePeak",
+      "message": "The product is great but the mobile app would make it much more useful.",
+      "summary": "The customer likes the product but says a mobile app would make it much more useful, explicitly requesting mobile access. The feature is currently missing and unresolved. Adding a mobile app would increase the product's usefulness for this customer.",
+      "reason": "",
+      "channel": "chat",
+      "date": "2026-08-20",
+      "revenue": 3100.0,
+      "customer_type": "Startup",
+      "sentiment": "positive",
+      "topic": "feature request",
+      "source_ids": [
+        "22"
+      ]
+    },
+    {
+      "id": "6",
+      "customer": "Acme Labs",
+      "message": "Could you add Slack notifications for important events?",
+      "summary": "Customer explicitly asks to add Slack notifications for important events. This is a clear feature request rather than a complaint about an existing failure. Implementing notifications would meet their stated communication needs.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-04",
+      "revenue": 2400.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "6"
+      ]
+    },
+    {
+      "id": "19",
+      "customer": "Acme Labs",
+      "message": "Please add an export to CSV for our finance team.",
+      "summary": "The customer requests a CSV export for their finance team, indicating a missing export capability. This is a clear feature request and remains unresolved until implemented. The request is tied to a specific business need (finance reporting).",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-17",
+      "revenue": 2400.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "19"
+      ]
+    },
+    {
+      "id": "26",
+      "customer": "Acme Labs",
+      "message": "Could you add better analytics to the dashboard?",
+      "summary": "The customer requests better analytics on the dashboard, indicating current analytics capabilities are insufficient. This is a clear feature request and remains unresolved. Improved dashboard analytics are needed to meet their reporting needs.",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-24",
+      "revenue": 2400.0,
+      "customer_type": "Startup",
+      "sentiment": "neutral",
+      "topic": "feature request",
+      "source_ids": [
+        "26"
+      ]
+    },
+    {
+      "id": "16",
+      "customer": "Greenline",
+      "message": "The mobile experience is poor and makes approvals difficult.",
+      "summary": "The customer reports a poor mobile experience that makes approvals difficult. They are implicitly requesting improvements to mobile usability. This issue is unresolved and is blocking a core workflow (approvals).",
+      "reason": "",
+      "channel": "email",
+      "date": "2026-08-14",
+      "revenue": 900.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "product usability",
+      "source_ids": [
+        "16"
+      ]
+    }
+  ],
+  "feature_request_summary": {
+    "count": 19,
+    "percentage": 63.3
+  },
+  "churn_signals": [
+    {
+      "id": "5",
+      "customer": "Vertex",
+      "message": "If the onboarding does not improve, we may cancel next month.",
+      "evidence": "Customer threatens cancellation next month if onboarding does not improve, signaling urgent retention risk. They implicitly request improved onboarding processes. The problem is unresolved and requires immediate attention to avoid churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "call",
+      "date": "2026-08-04",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "unresolved_issue": true,
+      "source_ids": [
+        "5"
+      ]
+    },
+    {
+      "id": "9",
+      "customer": "Vertex",
+      "message": "We are frustrated by repeated configuration issues during setup.",
+      "evidence": "Customer is frustrated by repeated configuration issues during setup, indicating ongoing operational problems. Given prior threats from this customer in the dataset, this compounds retention risk and remains unresolved. Fixing configuration reliability in onboarding is necessary to prevent churn.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "chat",
+      "date": "2026-08-07",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "onboarding",
+      "unresolved_issue": true,
+      "source_ids": [
+        "9"
+      ]
+    },
+    {
+      "id": "28",
+      "customer": "Vertex",
+      "message": "If performance and reporting don't improve, we will reconsider renewal.",
+      "evidence": "The customer warns they will reconsider renewal if performance and reporting do not improve, creating immediate retention risk. They are requesting improvements to performance and reporting, which are currently inadequate. These unresolved issues threaten the customer's renewal decision.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "call",
+      "date": "2026-08-26",
+      "revenue": 12000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "performance",
+      "unresolved_issue": true,
+      "source_ids": [
+        "28"
+      ]
+    },
+    {
+      "id": "11",
+      "customer": "DeltaWorks",
+      "message": "We are considering switching because the integration with our CRM is missing.",
+      "evidence": "Customer is considering switching because the integration with their CRM is missing, an explicit cause of retention risk. They are requesting that CRM integration be provided. The missing integration is unresolved and materially affecting their willingness to stay.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "email",
+      "date": "2026-08-09",
+      "revenue": 11000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "11"
+      ]
+    },
+    {
+      "id": "17",
+      "customer": "DeltaWorks",
+      "message": "We may leave if the Salesforce integration is not available soon.",
+      "evidence": "The customer states they may leave if the Salesforce integration is not available soon, creating clear retention risk. They explicitly need a Salesforce integration that is currently missing. The lack of this integration remains an unresolved blocker for the customer.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Enterprise",
+      "channel": "email",
+      "date": "2026-08-15",
+      "revenue": 11000.0,
+      "customer_type": "SMB",
+      "sentiment": "negative",
+      "topic": "integration",
+      "unresolved_issue": true,
+      "source_ids": [
+        "17"
+      ]
+    },
+    {
+      "id": "8",
+      "customer": "Greenline",
+      "message": "Pricing is getting expensive for our team.",
+      "evidence": "Customer reports that pricing is becoming expensive for their team and is dissatisfied with current costs. This indicates a retention risk driven by affordability concerns and remains unresolved. Pricing adjustments or alternative plans may be needed to retain them.",
+      "reason": "",
+      "severity": "high",
+      "plan": "Basic",
+      "channel": "email",
+      "date": "2026-08-06",
+      "revenue": 900.0,
+      "customer_type": "Startup",
+      "sentiment": "negative",
+      "topic": "pricing",
+      "unresolved_issue": true,
+      "source_ids": [
+        "8"
+      ]
+    }
+  ],
+  "churn_summary": {
+    "count": 6,
+    "percentage": 20.0
+  },
+  "feature_request_insight": "A majority of feature demand centers on integrations and export/reporting capabilities: integration topics lead feature requests (5 mentions) and top problems explicitly call out missing Salesforce/CRM integrations. Other explicit capability gaps include requests for a mobile app and Slack notifications and a required reporting export. The wording in records (e.g., 'missing salesforce integration', 'no mobile app') indicates these capabilities are currently absent or insufficient for customers' needs.",
+  "churn_insight": "There is measurable retention risk: 6 churn signals (20%) align with onboarding and integration topics (onboarding and integration each appear in churn-topic records). The very high unresolved-issue rate (80%) amplifies that risk—customers stuck in setup or lacking critical integrations are more likely to cancel. Pricing and performance concerns also appear among churn topics and could become additional drivers if unresolved.",
+  "unresolved_issues": {
+    "count": 24,
+    "percentage": 80.0
+  },
+  "top_topics": [
+    {
+      "name": "onboarding",
+      "count": 6,
+      "percentage": 20.0
+    },
+    {
+      "name": "integration",
+      "count": 5,
+      "percentage": 16.7
+    },
+    {
+      "name": "feature request",
+      "count": 5,
+      "percentage": 16.7
+    },
+    {
+      "name": "performance",
+      "count": 4,
+      "percentage": 13.3
+    },
+    {
+      "name": "reporting",
+      "count": 4,
+      "percentage": 13.3
+    },
+    {
+      "name": "pricing",
+      "count": 3,
+      "percentage": 10.0
+    },
+    {
+      "name": "support",
+      "count": 2,
+      "percentage": 6.7
+    },
+    {
+      "name": "product usability",
+      "count": 1,
+      "percentage": 3.3
+    }
+  ],
+  "high_value": [
+    {
+      "id": "5",
+      "customer": "Vertex",
+      "revenue": 12000.0,
+      "message": "If the onboarding does not improve, we may cancel next month.",
+      "evidence": "Customer threatens cancellation next month if onboarding does not improve, signaling urgent retention risk. They implicitly request improved onboarding processes. The problem is unresolved and requires immediate attention to avoid churn."
+    },
+    {
+      "id": "9",
+      "customer": "Vertex",
+      "revenue": 12000.0,
+      "message": "We are frustrated by repeated configuration issues during setup.",
+      "evidence": "Customer is frustrated by repeated configuration issues during setup, indicating ongoing operational problems. Given prior threats from this customer in the dataset, this compounds retention risk and remains unresolved. Fixing configuration reliability in onboarding is necessary to prevent churn."
+    },
+    {
+      "id": "15",
+      "customer": "Vertex",
+      "revenue": 12000.0,
+      "message": "We need a way to automate weekly reports.",
+      "evidence": "Customer requests a way to automate weekly reports, indicating the current lack of automation is impacting their workflow. This is an explicit feature request and remains unresolved. Implementing automated report scheduling would meet their stated need."
+    },
+    {
+      "id": "23",
+      "customer": "Vertex",
+      "revenue": 12000.0,
+      "message": "The pricing is hard to justify without the integrations.",
+      "evidence": "The customer finds the pricing hard to justify without the required integrations. They implicitly request integrations to justify cost, and the absence of those integrations is an unresolved concern. This impacts perceived value relative to price."
+    },
+    {
+      "id": "28",
+      "customer": "Vertex",
+      "revenue": 12000.0,
+      "message": "If performance and reporting don't improve, we will reconsider renewal.",
+      "evidence": "The customer warns they will reconsider renewal if performance and reporting do not improve, creating immediate retention risk. They are requesting improvements to performance and reporting, which are currently inadequate. These unresolved issues threaten the customer's renewal decision."
+    },
+    {
+      "id": "11",
+      "customer": "DeltaWorks",
+      "revenue": 11000.0,
+      "message": "We are considering switching because the integration with our CRM is missing.",
+      "evidence": "Customer is considering switching because the integration with their CRM is missing, an explicit cause of retention risk. They are requesting that CRM integration be provided. The missing integration is unresolved and materially affecting their willingness to stay."
+    },
+    {
+      "id": "17",
+      "customer": "DeltaWorks",
+      "revenue": 11000.0,
+      "message": "We may leave if the Salesforce integration is not available soon.",
+      "evidence": "The customer states they may leave if the Salesforce integration is not available soon, creating clear retention risk. They explicitly need a Salesforce integration that is currently missing. The lack of this integration remains an unresolved blocker for the customer."
+    },
+    {
+      "id": "24",
+      "customer": "DeltaWorks",
+      "revenue": 11000.0,
+      "message": "Customer support was helpful, but the setup still needs work.",
+      "evidence": "The customer appreciated helpful support but reports the setup process still needs work. This indicates remaining implementation or onboarding issues that are unresolved. Further setup assistance or fixes are required to complete onboarding."
+    },
+    {
+      "id": "3",
+      "customer": "Orbit",
+      "revenue": 9600.0,
+      "message": "The dashboard is slow when we open reports with lots of data.",
+      "evidence": "Customer reports the dashboard is slow when opening reports with large datasets. This performance issue is impacting their ability to view reports efficiently and remains unresolved. Improving report performance would improve usability for data-heavy users."
+    },
+    {
+      "id": "12",
+      "customer": "Orbit",
+      "revenue": 9600.0,
+      "message": "The API integration is important for our workflow.",
+      "evidence": "Customer states that API integration is important for their workflow, indicating a need for that capability. This is an explicit request for integration functionality and appears unresolved. Delivering or clarifying API integration would address their workflow requirement."
+    },
+    {
+      "id": "20",
+      "customer": "Orbit",
+      "revenue": 9600.0,
+      "message": "Reports keep timing out when we have a large dataset.",
+      "evidence": "The customer reports that reports time out when using large datasets, causing failures in reporting workflows. This is a performance/reliability issue that remains unresolved. It affects the customer's ability to use reporting on large data volumes."
+    },
+    {
+      "id": "30",
+      "customer": "Orbit",
+      "revenue": 9600.0,
+      "message": "Please improve report loading time and add more export options.",
+      "evidence": "The customer asks for improved report loading times and more export options, indicating performance problems and missing export functionality. These are explicit requests and remain unresolved. The issues impact their ability to use reporting efficiently."
+    },
+    {
+      "id": "2",
+      "customer": "Northstar",
+      "revenue": 4200.0,
+      "message": "We really need a Salesforce integration because the manual export is painful.",
+      "evidence": "Customer says manual export is painful and explicitly requests a Salesforce integration. The lack of this integration is causing a painful workflow that remains unresolved. Delivering the integration would remove a manual bottleneck for their team."
+    },
+    {
+      "id": "7",
+      "customer": "Northstar",
+      "revenue": 4200.0,
+      "message": "The reporting does not give us the export we need.",
+      "evidence": "Customer says reporting does not provide the export they need and is implicitly requesting enhanced export capabilities. The missing export is blocking their reporting workflow and remains unresolved. Providing the requested export format would address their need."
+    },
+    {
+      "id": "14",
+      "customer": "Northstar",
+      "revenue": 4200.0,
+      "message": "Setup was confusing and took our team hours.",
+      "evidence": "Customer reports that setup was confusing and consumed hours of their team's time. This onboarding friction remains unresolved and is causing significant time costs. Simplifying the setup process or improving guidance could reduce this burden."
+    },
+    {
+      "id": "21",
+      "customer": "Northstar",
+      "revenue": 4200.0,
+      "message": "We need better onboarding documentation.",
+      "evidence": "The customer asks for better onboarding documentation, indicating current materials are inadequate. This is an explicit request to improve documentation and remains unresolved. Improved onboarding docs are needed to support their setup and adoption."
+    },
+    {
+      "id": "27",
+      "customer": "Northstar",
+      "revenue": 4200.0,
+      "message": "The CRM integration would save us a lot of manual work.",
+      "evidence": "The customer says a CRM integration would save a lot of manual work, signaling a need for a CRM connector. This is an explicit integration request that is currently unmet. The lack of integration creates manual work for their team."
+    },
+    {
+      "id": "4",
+      "customer": "BluePeak",
+      "revenue": 3100.0,
+      "message": "We love the product, but please add a mobile app.",
+      "evidence": "Customer expresses strong product satisfaction but requests a mobile app. The feature is explicitly requested and would extend the product’s accessibility on mobile devices. Adding a mobile app could increase engagement from this customer."
+    },
+    {
+      "id": "13",
+      "customer": "BluePeak",
+      "revenue": 3100.0,
+      "message": "Would love better analytics and custom reports.",
+      "evidence": "Customer would like better analytics and the ability to create custom reports. They express interest rather than dissatisfaction with the overall product. Adding enhanced analytics and customizable reporting would fulfill this requested capability."
+    },
+    {
+      "id": "22",
+      "customer": "BluePeak",
+      "revenue": 3100.0,
+      "message": "The product is great but the mobile app would make it much more useful.",
+      "evidence": "The customer likes the product but says a mobile app would make it much more useful, explicitly requesting mobile access. The feature is currently missing and unresolved. Adding a mobile app would increase the product's usefulness for this customer."
+    }
+  ],
+  "segments": [
+    {
+      "segment": "SMB",
+      "count": 17,
+      "percentage": 56.7,
+      "negative": 12,
+      "churn": 5,
+      "revenue": 152400.0
+    },
+    {
+      "segment": "Startup",
+      "count": 13,
+      "percentage": 43.3,
+      "negative": 3,
+      "churn": 1,
+      "revenue": 30000.0
+    }
+  ],
+  "source_counts": {
+    "email": 14,
+    "call": 3,
+    "chat": 13
+  },
+  "suggested_questions": [
+    "Which feature are customers most complaining about?",
+    "Which features should we add to the roadmap, especially where high-profile customers are asking even though request volume is lower?",
+    "Which clients are likely to churn and why? Prioritize high-profile customers first.",
+    "Which customer problems are causing the most unresolved friction and what should we fix first?",
+    "Which customer segments or accounts show the strongest combination of business impact and recurring product pain?"
+  ],
+  "aggregates": {
+    "total_records": 30,
+    "sentiment": {
+      "positive": 6,
+      "negative": 15,
+      "neutral": 9,
+      "percentages": {
+        "positive": 20.0,
+        "negative": 50.0,
+        "neutral": 30.0
+      }
+    },
+    "feature_requests": {
+      "count": 19,
+      "percentage": 63.3
+    },
+    "churn_signals": {
+      "count": 6,
+      "percentage": 20.0
+    },
+    "unresolved_issues": {
+      "count": 24,
+      "percentage": 80.0
+    },
+    "top_topics": [
+      {
+        "name": "onboarding",
+        "count": 6,
+        "percentage": 20.0
+      },
+      {
+        "name": "integration",
+        "count": 5,
+        "percentage": 16.7
+      },
+      {
+        "name": "feature request",
+        "count": 5,
+        "percentage": 16.7
+      },
+      {
+        "name": "performance",
+        "count": 4,
+        "percentage": 13.3
+      },
+      {
+        "name": "reporting",
+        "count": 4,
+        "percentage": 13.3
+      },
+      {
+        "name": "pricing",
+        "count": 3,
+        "percentage": 10.0
+      },
+      {
+        "name": "support",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "product usability",
+        "count": 1,
+        "percentage": 3.3
+      }
+    ],
+    "top_problems": [
+      {
+        "name": "missing salesforce integration",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "no mobile app",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "missing crm integration",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "confusing/lengthy onboarding",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "slow dashboard with large reports",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "poor onboarding risking cancellation",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "missing slack notifications",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "reporting lacks required export",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "price becoming too expensive",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "repeated configuration issues during setup",
+        "count": 1,
+        "percentage": 3.3
+      }
+    ],
+    "feature_topics": [
+      {
+        "name": "integration",
+        "count": 5,
+        "percentage": 16.7
+      },
+      {
+        "name": "feature request",
+        "count": 5,
+        "percentage": 16.7
+      },
+      {
+        "name": "reporting",
+        "count": 3,
+        "percentage": 10.0
+      },
+      {
+        "name": "onboarding",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "performance",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "product usability",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "pricing",
+        "count": 1,
+        "percentage": 3.3
+      }
+    ],
+    "churn_topics": [
+      {
+        "name": "onboarding",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "integration",
+        "count": 2,
+        "percentage": 6.7
+      },
+      {
+        "name": "pricing",
+        "count": 1,
+        "percentage": 3.3
+      },
+      {
+        "name": "performance",
+        "count": 1,
+        "percentage": 3.3
+      }
+    ],
+    "channels": {
+      "email": 14,
+      "chat": 13,
+      "call": 3
+    },
+    "plans": [
+      {
+        "name": "Pro",
+        "count": 15
+      },
+      {
+        "name": "Enterprise",
+        "count": 12
+      },
+      {
+        "name": "Basic",
+        "count": 3
+      }
+    ],
+    "customer_types": [
+      {
+        "name": "SMB",
+        "count": 17
+      },
+      {
+        "name": "Startup",
+        "count": 13
+      }
+    ]
+  },
+  "analysis_method": "OpenAI analyzed all 30 uploaded records in small internal batches of up to 30 records. Classifications and aggregate counts were calculated across all analyzed records.",
+  "coverage": {
+    "total_records": 30,
+    "analyzed_records": 30,
+    "remaining_records": 0,
+    "percentage": 100,
+    "label": "Analyzed all 30 records"
+  }
+}
